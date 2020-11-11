@@ -1,0 +1,21 @@
+[2020-11-11 16:16:41,718] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: sleep_task.run_this_bash_first 2020-11-01T00:25:00+00:00 [queued]>
+[2020-11-11 16:16:41,730] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: sleep_task.run_this_bash_first 2020-11-01T00:25:00+00:00 [queued]>
+[2020-11-11 16:16:41,730] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-11 16:16:41,730] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-11-11 16:16:41,730] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-11 16:16:41,738] {taskinstance.py:901} INFO - Executing <Task(BashOperator): run_this_bash_first> on 2020-11-01T00:25:00+00:00
+[2020-11-11 16:16:41,740] {standard_task_runner.py:54} INFO - Started process 18926 to run task
+[2020-11-11 16:16:41,756] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'sleep_task', 'run_this_bash_first', '2020-11-01T00:25:00+00:00', '--job_id', '54', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/sleep_task.py', '--cfg_path', '/tmp/tmpewtjjzxk']
+[2020-11-11 16:16:41,757] {standard_task_runner.py:78} INFO - Job 54: Subtask run_this_bash_first
+[2020-11-11 16:16:41,781] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sleep_task.run_this_bash_first 2020-11-01T00:25:00+00:00 [running]> nvt-B365M-DS3H
+[2020-11-11 16:16:41,793] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /tmp
+[2020-11-11 16:16:41,794] {bash_operator.py:134} INFO - Temporary script location: /tmp/airflowtmphthxnaxj/run_this_bash_firstr0z4o_35
+[2020-11-11 16:16:41,794] {bash_operator.py:146} INFO - Running command: echo start
+[2020-11-11 16:16:41,798] {bash_operator.py:153} INFO - Output:
+[2020-11-11 16:16:41,799] {bash_operator.py:157} INFO - start
+[2020-11-11 16:16:41,799] {bash_operator.py:159} INFO - Command exited with return code 0
+[2020-11-11 16:16:41,803] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=sleep_task, task_id=run_this_bash_first, execution_date=20201101T002500, start_date=20201111T091641, end_date=20201111T091641
+[2020-11-11 16:16:46,715] {local_task_job.py:102} INFO - Task exited with return code 0

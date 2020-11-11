@@ -1,0 +1,15 @@
+[2020-11-11 16:24:25,198] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: sleep_task.sleep_task_2 2020-11-01T02:45:00+00:00 [queued]>
+[2020-11-11 16:24:25,236] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: sleep_task.sleep_task_2 2020-11-01T02:45:00+00:00 [queued]>
+[2020-11-11 16:24:25,236] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-11 16:24:25,236] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-11-11 16:24:25,236] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-11 16:24:25,285] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): sleep_task_2> on 2020-11-01T02:45:00+00:00
+[2020-11-11 16:24:25,287] {standard_task_runner.py:54} INFO - Started process 25908 to run task
+[2020-11-11 16:24:25,319] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'sleep_task', 'sleep_task_2', '2020-11-01T02:45:00+00:00', '--job_id', '389', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/sleep_task.py', '--cfg_path', '/tmp/tmpcy12mu6x']
+[2020-11-11 16:24:25,321] {standard_task_runner.py:78} INFO - Job 389: Subtask sleep_task_2
+[2020-11-11 16:24:25,394] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sleep_task.sleep_task_2 2020-11-01T02:45:00+00:00 [running]> nvt-B365M-DS3H
+[2020-11-11 16:24:35,448] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-11-11 16:24:35,451] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=sleep_task, task_id=sleep_task_2, execution_date=20201101T024500, start_date=20201111T092425, end_date=20201111T092435
+[2020-11-11 16:24:40,161] {local_task_job.py:102} INFO - Task exited with return code 0

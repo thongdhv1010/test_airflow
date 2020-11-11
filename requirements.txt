@@ -1,0 +1,2 @@
+apache-airflow[mysql,celery,rabbitmq]==1.10.12
+cattrs==1.0.0

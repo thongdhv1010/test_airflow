@@ -1,0 +1,21 @@
+[2020-11-11 16:24:25,325] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: sleep_task.run_this_bash_last 2020-11-01T01:30:00+00:00 [queued]>
+[2020-11-11 16:24:25,347] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: sleep_task.run_this_bash_last 2020-11-01T01:30:00+00:00 [queued]>
+[2020-11-11 16:24:25,347] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-11 16:24:25,347] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-11-11 16:24:25,347] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-11 16:24:25,360] {taskinstance.py:901} INFO - Executing <Task(BashOperator): run_this_bash_last> on 2020-11-01T01:30:00+00:00
+[2020-11-11 16:24:25,366] {standard_task_runner.py:54} INFO - Started process 25910 to run task
+[2020-11-11 16:24:25,389] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'sleep_task', 'run_this_bash_last', '2020-11-01T01:30:00+00:00', '--job_id', '392', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/sleep_task.py', '--cfg_path', '/tmp/tmp4jza9x69']
+[2020-11-11 16:24:25,390] {standard_task_runner.py:78} INFO - Job 392: Subtask run_this_bash_last
+[2020-11-11 16:24:25,453] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sleep_task.run_this_bash_last 2020-11-01T01:30:00+00:00 [running]> nvt-B365M-DS3H
+[2020-11-11 16:24:25,499] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /tmp
+[2020-11-11 16:24:25,536] {bash_operator.py:134} INFO - Temporary script location: /tmp/airflowtmpe9ekxntu/run_this_bash_lastgiwavo3p
+[2020-11-11 16:24:25,536] {bash_operator.py:146} INFO - Running command: echo "run_id=scheduled__2020-11-01T01:30:00+00:00 | dag_run=<DagRun sleep_task @ 2020-11-01 01:30:00+00:00: scheduled__2020-11-01T01:30:00+00:00, externally triggered: False>"
+[2020-11-11 16:24:25,558] {bash_operator.py:153} INFO - Output:
+[2020-11-11 16:24:25,559] {bash_operator.py:157} INFO - run_id=scheduled__2020-11-01T01:30:00+00:00 | dag_run=<DagRun sleep_task @ 2020-11-01 01:30:00+00:00: scheduled__2020-11-01T01:30:00+00:00, externally triggered: False>
+[2020-11-11 16:24:25,559] {bash_operator.py:159} INFO - Command exited with return code 0
+[2020-11-11 16:24:25,564] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=sleep_task, task_id=run_this_bash_last, execution_date=20201101T013000, start_date=20201111T092425, end_date=20201111T092425
+[2020-11-11 16:24:30,288] {local_task_job.py:102} INFO - Task exited with return code 0
