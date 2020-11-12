@@ -5,6 +5,7 @@
     Date Created: 11/11/20
 """
 import argparse
+import re
 import uuid
 from datetime import datetime, timedelta
 
@@ -16,6 +17,8 @@ from cassandra.cluster import Cluster
 def process(args):
     print("BEGIN")
     # Connect
+    mysql_uri = 'mysql://thongnv:2TmI6EskMeI6K7Qe@10.19.96.8:3306/gapo_api'
+    user, password, host, port, database = re.match('mysql://(.*?):(.*?)@(.*?):(.*?)/(.*)', mysql_uri).groups()
     db = MySQLdb.connect(host="10.19.96.8",
                          user="thongnv",
                          passwd="2TmI6EskMeI6K7Qe",
