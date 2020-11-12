@@ -30,12 +30,13 @@ default_args = {
 dag = DAG(
     dag_id='aggregate_action_user',
     default_args=default_args,
-    schedule_interval='*/1 0-23 * * *',
+    # schedule_interval='0 * * * *', // Moi gio chay 1 lan vao dau gio
+    schedule_interval='*/2 * * * *',
     catchup=False
 )
 
 run_this_bash_first = BashOperator(task_id='get_user_action',
-                                   bash_command='echo start',
+                                   bash_command='python3 /home/nvt/PycharmProjects/test_airflow/scripts/user_action.py',
                                    dag=dag)
 
 

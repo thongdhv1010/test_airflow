@@ -1154,3 +1154,443 @@
 [2020-11-11 17:56:03,136] {logging_mixin.py:112} INFO - [2020-11-11 17:56:03,136] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
 [2020-11-11 17:56:03,148] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
 [2020-11-11 17:56:03,190] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.058 seconds
+[2020-11-11 17:56:16,259] {scheduler_job.py:154} INFO - Started process (PID=60029) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:16,260] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:56:16,261] {logging_mixin.py:112} INFO - [2020-11-11 17:56:16,261] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:16,264] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:16,287] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.028 seconds
+[2020-11-11 17:56:29,412] {scheduler_job.py:154} INFO - Started process (PID=60081) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:29,414] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:56:29,414] {logging_mixin.py:112} INFO - [2020-11-11 17:56:29,414] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:29,421] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:29,445] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.033 seconds
+[2020-11-11 17:56:42,591] {scheduler_job.py:154} INFO - Started process (PID=60142) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:42,592] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:56:42,592] {logging_mixin.py:112} INFO - [2020-11-11 17:56:42,592] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:42,596] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:42,615] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 17:56:55,739] {scheduler_job.py:154} INFO - Started process (PID=60179) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:55,740] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:56:55,741] {logging_mixin.py:112} INFO - [2020-11-11 17:56:55,741] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:55,744] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:56:55,763] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 17:57:08,874] {scheduler_job.py:154} INFO - Started process (PID=60252) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:08,876] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:57:08,876] {logging_mixin.py:112} INFO - [2020-11-11 17:57:08,876] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:08,879] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:08,897] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 17:57:22,006] {scheduler_job.py:154} INFO - Started process (PID=60284) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:22,007] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:57:22,007] {logging_mixin.py:112} INFO - [2020-11-11 17:57:22,007] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:22,011] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:22,028] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 17:57:35,150] {scheduler_job.py:154} INFO - Started process (PID=60328) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:35,151] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:57:35,151] {logging_mixin.py:112} INFO - [2020-11-11 17:57:35,151] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:35,155] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:35,172] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 17:57:48,298] {scheduler_job.py:154} INFO - Started process (PID=60378) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:48,299] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:57:48,299] {logging_mixin.py:112} INFO - [2020-11-11 17:57:48,299] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:48,303] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:57:48,321] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 17:58:01,496] {scheduler_job.py:154} INFO - Started process (PID=60439) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:01,501] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:58:01,502] {logging_mixin.py:112} INFO - [2020-11-11 17:58:01,502] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:01,515] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:01,539] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.043 seconds
+[2020-11-11 17:58:14,674] {scheduler_job.py:154} INFO - Started process (PID=60522) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:14,675] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:58:14,676] {logging_mixin.py:112} INFO - [2020-11-11 17:58:14,676] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:14,680] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:14,704] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.030 seconds
+[2020-11-11 17:58:27,824] {scheduler_job.py:154} INFO - Started process (PID=60560) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:27,825] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:58:27,826] {logging_mixin.py:112} INFO - [2020-11-11 17:58:27,826] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:27,829] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:27,848] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 17:58:40,966] {scheduler_job.py:154} INFO - Started process (PID=60592) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:40,967] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:58:40,967] {logging_mixin.py:112} INFO - [2020-11-11 17:58:40,967] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:40,971] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:40,988] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 17:58:54,151] {scheduler_job.py:154} INFO - Started process (PID=60657) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:54,152] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:58:54,152] {logging_mixin.py:112} INFO - [2020-11-11 17:58:54,152] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:54,156] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:58:54,174] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 17:59:07,279] {scheduler_job.py:154} INFO - Started process (PID=60741) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:07,280] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:59:07,281] {logging_mixin.py:112} INFO - [2020-11-11 17:59:07,281] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:07,284] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:07,303] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 17:59:20,416] {scheduler_job.py:154} INFO - Started process (PID=60775) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:20,417] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:59:20,418] {logging_mixin.py:112} INFO - [2020-11-11 17:59:20,418] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:20,421] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:20,440] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 17:59:33,548] {scheduler_job.py:154} INFO - Started process (PID=60816) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:33,549] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:59:33,549] {logging_mixin.py:112} INFO - [2020-11-11 17:59:33,549] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:33,553] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:33,573] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.026 seconds
+[2020-11-11 17:59:46,686] {scheduler_job.py:154} INFO - Started process (PID=60845) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:46,687] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:59:46,687] {logging_mixin.py:112} INFO - [2020-11-11 17:59:46,687] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:46,691] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:46,708] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 17:59:59,811] {scheduler_job.py:154} INFO - Started process (PID=60886) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:59,813] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 17:59:59,813] {logging_mixin.py:112} INFO - [2020-11-11 17:59:59,813] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:59,817] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 17:59:59,833] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 18:00:12,966] {scheduler_job.py:154} INFO - Started process (PID=60959) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:12,967] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:00:12,967] {logging_mixin.py:112} INFO - [2020-11-11 18:00:12,967] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:12,971] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:12,989] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:00:26,167] {scheduler_job.py:154} INFO - Started process (PID=60989) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:26,169] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:00:26,169] {logging_mixin.py:112} INFO - [2020-11-11 18:00:26,169] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:26,173] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:26,191] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:00:39,311] {scheduler_job.py:154} INFO - Started process (PID=61028) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:39,312] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:00:39,312] {logging_mixin.py:112} INFO - [2020-11-11 18:00:39,312] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:39,316] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:39,333] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 18:00:52,421] {scheduler_job.py:154} INFO - Started process (PID=61062) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:52,422] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:00:52,422] {logging_mixin.py:112} INFO - [2020-11-11 18:00:52,422] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:52,426] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:00:52,442] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.021 seconds
+[2020-11-11 18:01:05,567] {scheduler_job.py:154} INFO - Started process (PID=61098) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:05,568] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:01:05,568] {logging_mixin.py:112} INFO - [2020-11-11 18:01:05,568] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:05,572] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:05,590] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:01:18,705] {scheduler_job.py:154} INFO - Started process (PID=61168) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:18,707] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:01:18,707] {logging_mixin.py:112} INFO - [2020-11-11 18:01:18,707] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:18,711] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:18,738] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.033 seconds
+[2020-11-11 18:01:31,875] {scheduler_job.py:154} INFO - Started process (PID=61207) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:31,876] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:01:31,876] {logging_mixin.py:112} INFO - [2020-11-11 18:01:31,876] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:31,880] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:31,898] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:01:45,036] {scheduler_job.py:154} INFO - Started process (PID=61242) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:45,037] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:01:45,037] {logging_mixin.py:112} INFO - [2020-11-11 18:01:45,037] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:45,041] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:45,060] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:01:58,196] {scheduler_job.py:154} INFO - Started process (PID=61275) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:58,197] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:01:58,197] {logging_mixin.py:112} INFO - [2020-11-11 18:01:58,197] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:58,201] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:01:58,218] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:02:11,335] {scheduler_job.py:154} INFO - Started process (PID=61347) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:11,336] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:02:11,337] {logging_mixin.py:112} INFO - [2020-11-11 18:02:11,337] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:11,340] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:11,359] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:02:24,494] {scheduler_job.py:154} INFO - Started process (PID=61379) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:24,495] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:02:24,495] {logging_mixin.py:112} INFO - [2020-11-11 18:02:24,495] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:24,499] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:24,516] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 18:02:37,659] {scheduler_job.py:154} INFO - Started process (PID=61417) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:37,660] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:02:37,661] {logging_mixin.py:112} INFO - [2020-11-11 18:02:37,661] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:37,665] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:37,682] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:02:50,880] {scheduler_job.py:154} INFO - Started process (PID=61461) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:50,885] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:02:50,886] {logging_mixin.py:112} INFO - [2020-11-11 18:02:50,885] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:50,895] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:02:50,919] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.039 seconds
+[2020-11-11 18:03:03,997] {scheduler_job.py:154} INFO - Started process (PID=61517) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:03,999] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:03:03,999] {logging_mixin.py:112} INFO - [2020-11-11 18:03:03,999] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:04,003] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:04,028] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.030 seconds
+[2020-11-11 18:03:17,137] {scheduler_job.py:154} INFO - Started process (PID=61593) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:17,138] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:03:17,138] {logging_mixin.py:112} INFO - [2020-11-11 18:03:17,138] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:17,142] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:17,159] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 18:03:30,283] {scheduler_job.py:154} INFO - Started process (PID=61623) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:30,284] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:03:30,285] {logging_mixin.py:112} INFO - [2020-11-11 18:03:30,285] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:30,288] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:30,307] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:03:43,443] {scheduler_job.py:154} INFO - Started process (PID=61663) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:43,444] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:03:43,444] {logging_mixin.py:112} INFO - [2020-11-11 18:03:43,444] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:43,449] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:43,466] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:03:56,582] {scheduler_job.py:154} INFO - Started process (PID=61697) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:56,583] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:03:56,583] {logging_mixin.py:112} INFO - [2020-11-11 18:03:56,583] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:56,587] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:03:56,604] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 18:04:09,751] {scheduler_job.py:154} INFO - Started process (PID=61774) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:09,752] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:04:09,752] {logging_mixin.py:112} INFO - [2020-11-11 18:04:09,752] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:09,756] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:09,773] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:04:22,901] {scheduler_job.py:154} INFO - Started process (PID=61808) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:22,903] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:04:22,903] {logging_mixin.py:112} INFO - [2020-11-11 18:04:22,903] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:22,907] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:22,925] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:04:36,061] {scheduler_job.py:154} INFO - Started process (PID=61850) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:36,062] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:04:36,063] {logging_mixin.py:112} INFO - [2020-11-11 18:04:36,063] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:36,066] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:36,083] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 18:04:49,199] {scheduler_job.py:154} INFO - Started process (PID=61880) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:49,201] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:04:49,201] {logging_mixin.py:112} INFO - [2020-11-11 18:04:49,201] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:49,204] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:04:49,222] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:05:02,357] {scheduler_job.py:154} INFO - Started process (PID=61918) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:02,363] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:05:02,364] {logging_mixin.py:112} INFO - [2020-11-11 18:05:02,363] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:02,373] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:02,395] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.038 seconds
+[2020-11-11 18:05:15,471] {scheduler_job.py:154} INFO - Started process (PID=61998) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:15,473] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:05:15,473] {logging_mixin.py:112} INFO - [2020-11-11 18:05:15,473] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:15,477] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:15,494] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:05:28,624] {scheduler_job.py:154} INFO - Started process (PID=62029) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:28,625] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:05:28,626] {logging_mixin.py:112} INFO - [2020-11-11 18:05:28,625] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:28,629] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:28,650] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.026 seconds
+[2020-11-11 18:05:41,778] {scheduler_job.py:154} INFO - Started process (PID=62067) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:41,779] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:05:41,779] {logging_mixin.py:112} INFO - [2020-11-11 18:05:41,779] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:41,782] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:41,801] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:05:54,978] {scheduler_job.py:154} INFO - Started process (PID=62103) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:54,980] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:05:54,980] {logging_mixin.py:112} INFO - [2020-11-11 18:05:54,980] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:54,983] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:05:55,001] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:06:08,138] {scheduler_job.py:154} INFO - Started process (PID=62217) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:08,143] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:06:08,144] {logging_mixin.py:112} INFO - [2020-11-11 18:06:08,144] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:08,154] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:08,176] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.039 seconds
+[2020-11-11 18:06:21,329] {scheduler_job.py:154} INFO - Started process (PID=62252) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:21,330] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:06:21,330] {logging_mixin.py:112} INFO - [2020-11-11 18:06:21,330] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:21,334] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:21,353] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:06:34,532] {scheduler_job.py:154} INFO - Started process (PID=62294) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:34,534] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:06:34,534] {logging_mixin.py:112} INFO - [2020-11-11 18:06:34,534] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:34,545] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:34,572] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.039 seconds
+[2020-11-11 18:06:47,739] {scheduler_job.py:154} INFO - Started process (PID=62328) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:47,742] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:06:47,743] {logging_mixin.py:112} INFO - [2020-11-11 18:06:47,743] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:47,750] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:06:47,773] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.035 seconds
+[2020-11-11 18:07:00,916] {scheduler_job.py:154} INFO - Started process (PID=62362) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:00,921] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:07:00,922] {logging_mixin.py:112} INFO - [2020-11-11 18:07:00,922] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:00,934] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:00,959] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.043 seconds
+[2020-11-11 18:07:14,089] {scheduler_job.py:154} INFO - Started process (PID=62437) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:14,090] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:07:14,090] {logging_mixin.py:112} INFO - [2020-11-11 18:07:14,090] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:14,094] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:14,113] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:07:27,247] {scheduler_job.py:154} INFO - Started process (PID=62473) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:27,248] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:07:27,248] {logging_mixin.py:112} INFO - [2020-11-11 18:07:27,248] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:27,252] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:27,271] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:07:40,464] {scheduler_job.py:154} INFO - Started process (PID=62510) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:40,469] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:07:40,470] {logging_mixin.py:112} INFO - [2020-11-11 18:07:40,470] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:40,483] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:40,506] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.043 seconds
+[2020-11-11 18:07:53,606] {scheduler_job.py:154} INFO - Started process (PID=62562) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:53,608] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:07:53,608] {logging_mixin.py:112} INFO - [2020-11-11 18:07:53,608] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:53,612] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:07:53,631] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:08:06,768] {scheduler_job.py:154} INFO - Started process (PID=62599) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:06,773] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:08:06,774] {logging_mixin.py:112} INFO - [2020-11-11 18:08:06,773] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:06,783] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:06,807] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.039 seconds
+[2020-11-11 18:08:19,934] {scheduler_job.py:154} INFO - Started process (PID=62681) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:19,935] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:08:19,935] {logging_mixin.py:112} INFO - [2020-11-11 18:08:19,935] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:19,939] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:19,956] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:08:33,147] {scheduler_job.py:154} INFO - Started process (PID=62751) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:33,148] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:08:33,149] {logging_mixin.py:112} INFO - [2020-11-11 18:08:33,148] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:33,152] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:33,170] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:08:46,344] {scheduler_job.py:154} INFO - Started process (PID=62797) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:46,345] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:08:46,345] {logging_mixin.py:112} INFO - [2020-11-11 18:08:46,345] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:46,349] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:46,370] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.026 seconds
+[2020-11-11 18:08:59,495] {scheduler_job.py:154} INFO - Started process (PID=62829) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:59,497] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:08:59,497] {logging_mixin.py:112} INFO - [2020-11-11 18:08:59,497] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:59,501] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:08:59,518] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:09:12,643] {scheduler_job.py:154} INFO - Started process (PID=62903) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:12,644] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:09:12,644] {logging_mixin.py:112} INFO - [2020-11-11 18:09:12,644] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:12,648] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:12,666] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:09:25,865] {scheduler_job.py:154} INFO - Started process (PID=62960) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:25,871] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:09:25,872] {logging_mixin.py:112} INFO - [2020-11-11 18:09:25,871] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:25,883] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:25,906] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.041 seconds
+[2020-11-11 18:09:38,967] {scheduler_job.py:154} INFO - Started process (PID=64510) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:38,968] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:09:38,968] {logging_mixin.py:112} INFO - [2020-11-11 18:09:38,968] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:38,972] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:38,991] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:09:52,158] {scheduler_job.py:154} INFO - Started process (PID=65150) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:52,163] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:09:52,164] {logging_mixin.py:112} INFO - [2020-11-11 18:09:52,164] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:52,172] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:09:52,197] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.039 seconds
+[2020-11-11 18:10:05,339] {scheduler_job.py:154} INFO - Started process (PID=65187) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:05,341] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:10:05,341] {logging_mixin.py:112} INFO - [2020-11-11 18:10:05,341] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:05,345] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:05,364] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.025 seconds
+[2020-11-11 18:10:18,467] {scheduler_job.py:154} INFO - Started process (PID=65284) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:18,468] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:10:18,469] {logging_mixin.py:112} INFO - [2020-11-11 18:10:18,469] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:18,472] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:18,490] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:10:31,609] {scheduler_job.py:154} INFO - Started process (PID=65317) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:31,611] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:10:31,611] {logging_mixin.py:112} INFO - [2020-11-11 18:10:31,611] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:31,615] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:31,632] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:10:44,843] {scheduler_job.py:154} INFO - Started process (PID=65354) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:44,844] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:10:44,845] {logging_mixin.py:112} INFO - [2020-11-11 18:10:44,844] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:44,848] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:44,866] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:10:58,048] {scheduler_job.py:154} INFO - Started process (PID=65388) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:58,049] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:10:58,049] {logging_mixin.py:112} INFO - [2020-11-11 18:10:58,049] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:58,053] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:10:58,071] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:11:11,254] {scheduler_job.py:154} INFO - Started process (PID=65470) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:11,256] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:11:11,256] {logging_mixin.py:112} INFO - [2020-11-11 18:11:11,256] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:11,259] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:11,279] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:11:24,410] {scheduler_job.py:154} INFO - Started process (PID=65523) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:24,411] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:11:24,411] {logging_mixin.py:112} INFO - [2020-11-11 18:11:24,411] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:24,415] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:24,433] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:11:37,563] {scheduler_job.py:154} INFO - Started process (PID=65558) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:37,564] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:11:37,564] {logging_mixin.py:112} INFO - [2020-11-11 18:11:37,564] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:37,568] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:37,588] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.025 seconds
+[2020-11-11 18:11:50,700] {scheduler_job.py:154} INFO - Started process (PID=65600) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:50,705] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:11:50,706] {logging_mixin.py:112} INFO - [2020-11-11 18:11:50,706] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:50,715] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:11:50,741] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.042 seconds
+[2020-11-11 18:12:03,827] {scheduler_job.py:154} INFO - Started process (PID=65648) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:03,828] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:12:03,828] {logging_mixin.py:112} INFO - [2020-11-11 18:12:03,828] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:03,831] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:03,851] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:12:16,971] {scheduler_job.py:154} INFO - Started process (PID=65725) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:16,973] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:12:16,974] {logging_mixin.py:112} INFO - [2020-11-11 18:12:16,973] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:16,979] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:17,000] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.029 seconds
+[2020-11-11 18:12:30,117] {scheduler_job.py:154} INFO - Started process (PID=65759) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:30,119] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:12:30,119] {logging_mixin.py:112} INFO - [2020-11-11 18:12:30,119] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:30,123] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:30,140] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:12:43,269] {scheduler_job.py:154} INFO - Started process (PID=65800) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:43,270] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:12:43,271] {logging_mixin.py:112} INFO - [2020-11-11 18:12:43,270] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:43,274] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:43,291] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.022 seconds
+[2020-11-11 18:12:56,448] {scheduler_job.py:154} INFO - Started process (PID=65835) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:56,453] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:12:56,454] {logging_mixin.py:112} INFO - [2020-11-11 18:12:56,454] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:56,467] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:12:56,493] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.045 seconds
+[2020-11-11 18:13:09,594] {scheduler_job.py:154} INFO - Started process (PID=65911) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:09,595] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:13:09,596] {logging_mixin.py:112} INFO - [2020-11-11 18:13:09,596] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:09,599] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:09,617] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:13:22,737] {scheduler_job.py:154} INFO - Started process (PID=65954) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:22,738] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:13:22,738] {logging_mixin.py:112} INFO - [2020-11-11 18:13:22,738] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:22,742] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:22,760] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:13:35,952] {scheduler_job.py:154} INFO - Started process (PID=65992) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:35,953] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:13:35,953] {logging_mixin.py:112} INFO - [2020-11-11 18:13:35,953] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:35,957] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:35,974] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds
+[2020-11-11 18:13:49,108] {scheduler_job.py:154} INFO - Started process (PID=66035) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:49,109] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:13:49,109] {logging_mixin.py:112} INFO - [2020-11-11 18:13:49,109] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:49,113] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:13:49,132] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.024 seconds
+[2020-11-11 18:14:02,348] {scheduler_job.py:154} INFO - Started process (PID=66071) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:02,353] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:14:02,353] {logging_mixin.py:112} INFO - [2020-11-11 18:14:02,353] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:02,362] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:02,384] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.036 seconds
+[2020-11-11 18:14:15,576] {scheduler_job.py:154} INFO - Started process (PID=66149) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:15,579] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:14:15,580] {logging_mixin.py:112} INFO - [2020-11-11 18:14:15,580] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:15,587] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:15,610] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.034 seconds
+[2020-11-11 18:14:28,788] {scheduler_job.py:154} INFO - Started process (PID=66288) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:28,793] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:14:28,794] {logging_mixin.py:112} INFO - [2020-11-11 18:14:28,794] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:28,806] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:28,832] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.045 seconds
+[2020-11-11 18:14:41,978] {scheduler_job.py:154} INFO - Started process (PID=66354) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:41,984] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:14:41,984] {logging_mixin.py:112} INFO - [2020-11-11 18:14:41,984] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:41,996] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:42,023] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.045 seconds
+[2020-11-11 18:14:55,196] {scheduler_job.py:154} INFO - Started process (PID=66394) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:55,201] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:14:55,202] {logging_mixin.py:112} INFO - [2020-11-11 18:14:55,202] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:55,212] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:14:55,235] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.039 seconds
+[2020-11-11 18:15:08,348] {scheduler_job.py:154} INFO - Started process (PID=66442) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:15:08,349] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:15:08,349] {logging_mixin.py:112} INFO - [2020-11-11 18:15:08,349] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:15:08,353] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:15:08,375] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.027 seconds
+[2020-11-11 18:15:21,507] {scheduler_job.py:154} INFO - Started process (PID=66545) to work on /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:15:21,509] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py for tasks to queue
+[2020-11-11 18:15:21,509] {logging_mixin.py:112} INFO - [2020-11-11 18:15:21,509] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:15:21,512] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['aggregate_action_user']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-11 18:15:21,530] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py took 0.023 seconds

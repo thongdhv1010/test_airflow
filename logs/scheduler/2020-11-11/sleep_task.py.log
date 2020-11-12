@@ -5779,3 +5779,443 @@ SyntaxError: invalid character in identifier
 [2020-11-11 17:56:02,114] {logging_mixin.py:112} INFO - [2020-11-11 17:56:02,114] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
 [2020-11-11 17:56:02,120] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
 [2020-11-11 17:56:02,144] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.031 seconds
+[2020-11-11 17:56:15,250] {scheduler_job.py:154} INFO - Started process (PID=59982) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:15,251] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:56:15,252] {logging_mixin.py:112} INFO - [2020-11-11 17:56:15,252] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:15,256] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:15,280] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.030 seconds
+[2020-11-11 17:56:28,402] {scheduler_job.py:154} INFO - Started process (PID=60074) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:28,404] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:56:28,404] {logging_mixin.py:112} INFO - [2020-11-11 17:56:28,404] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:28,412] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:28,436] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.034 seconds
+[2020-11-11 17:56:41,578] {scheduler_job.py:154} INFO - Started process (PID=60140) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:41,579] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:56:41,579] {logging_mixin.py:112} INFO - [2020-11-11 17:56:41,579] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:41,583] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:41,600] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 17:56:54,737] {scheduler_job.py:154} INFO - Started process (PID=60177) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:54,740] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:56:54,740] {logging_mixin.py:112} INFO - [2020-11-11 17:56:54,740] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:54,749] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:56:54,770] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.033 seconds
+[2020-11-11 17:57:07,865] {scheduler_job.py:154} INFO - Started process (PID=60250) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:07,866] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:57:07,867] {logging_mixin.py:112} INFO - [2020-11-11 17:57:07,867] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:07,871] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:07,890] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.025 seconds
+[2020-11-11 17:57:20,996] {scheduler_job.py:154} INFO - Started process (PID=60280) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:20,997] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:57:20,997] {logging_mixin.py:112} INFO - [2020-11-11 17:57:20,997] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:21,002] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:21,025] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.029 seconds
+[2020-11-11 17:57:34,140] {scheduler_job.py:154} INFO - Started process (PID=60326) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:34,141] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:57:34,141] {logging_mixin.py:112} INFO - [2020-11-11 17:57:34,141] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:34,145] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:34,162] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 17:57:47,297] {scheduler_job.py:154} INFO - Started process (PID=60376) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:47,302] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:57:47,303] {logging_mixin.py:112} INFO - [2020-11-11 17:57:47,303] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:47,317] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:57:47,340] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.043 seconds
+[2020-11-11 17:58:00,478] {scheduler_job.py:154} INFO - Started process (PID=60435) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:00,484] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:58:00,484] {logging_mixin.py:112} INFO - [2020-11-11 17:58:00,484] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:00,500] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:00,524] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.046 seconds
+[2020-11-11 17:58:13,659] {scheduler_job.py:154} INFO - Started process (PID=60518) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:13,661] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:58:13,661] {logging_mixin.py:112} INFO - [2020-11-11 17:58:13,661] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:13,665] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:13,686] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.027 seconds
+[2020-11-11 17:58:26,811] {scheduler_job.py:154} INFO - Started process (PID=60555) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:26,813] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:58:26,813] {logging_mixin.py:112} INFO - [2020-11-11 17:58:26,813] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:26,817] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:26,834] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 17:58:39,958] {scheduler_job.py:154} INFO - Started process (PID=60590) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:39,959] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:58:39,960] {logging_mixin.py:112} INFO - [2020-11-11 17:58:39,960] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:39,965] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:39,986] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.028 seconds
+[2020-11-11 17:58:53,138] {scheduler_job.py:154} INFO - Started process (PID=60655) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:53,139] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:58:53,139] {logging_mixin.py:112} INFO - [2020-11-11 17:58:53,139] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:53,143] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:58:53,160] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 17:59:06,267] {scheduler_job.py:154} INFO - Started process (PID=60701) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:06,268] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:59:06,269] {logging_mixin.py:112} INFO - [2020-11-11 17:59:06,269] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:06,273] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:06,291] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 17:59:19,406] {scheduler_job.py:154} INFO - Started process (PID=60771) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:19,407] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:59:19,408] {logging_mixin.py:112} INFO - [2020-11-11 17:59:19,408] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:19,412] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:19,429] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 17:59:32,538] {scheduler_job.py:154} INFO - Started process (PID=60814) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:32,539] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:59:32,539] {logging_mixin.py:112} INFO - [2020-11-11 17:59:32,539] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:32,544] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:32,560] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 17:59:45,676] {scheduler_job.py:154} INFO - Started process (PID=60843) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:45,677] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:59:45,677] {logging_mixin.py:112} INFO - [2020-11-11 17:59:45,677] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:45,682] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:45,703] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.027 seconds
+[2020-11-11 17:59:58,804] {scheduler_job.py:154} INFO - Started process (PID=60882) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:58,806] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 17:59:58,806] {logging_mixin.py:112} INFO - [2020-11-11 17:59:58,806] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:58,811] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 17:59:58,828] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:00:11,951] {scheduler_job.py:154} INFO - Started process (PID=60957) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:11,953] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:00:11,953] {logging_mixin.py:112} INFO - [2020-11-11 18:00:11,953] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:11,958] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:11,975] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:00:25,146] {scheduler_job.py:154} INFO - Started process (PID=60986) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:25,147] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:00:25,147] {logging_mixin.py:112} INFO - [2020-11-11 18:00:25,147] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:25,152] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:25,169] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:00:38,303] {scheduler_job.py:154} INFO - Started process (PID=61026) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:38,305] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:00:38,305] {logging_mixin.py:112} INFO - [2020-11-11 18:00:38,305] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:38,309] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:38,333] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.029 seconds
+[2020-11-11 18:00:51,411] {scheduler_job.py:154} INFO - Started process (PID=61058) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:51,413] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:00:51,413] {logging_mixin.py:112} INFO - [2020-11-11 18:00:51,413] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:51,418] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:00:51,437] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.025 seconds
+[2020-11-11 18:01:04,554] {scheduler_job.py:154} INFO - Started process (PID=61095) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:04,555] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:01:04,556] {logging_mixin.py:112} INFO - [2020-11-11 18:01:04,555] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:04,560] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:04,577] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:01:17,695] {scheduler_job.py:154} INFO - Started process (PID=61166) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:17,696] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:01:17,697] {logging_mixin.py:112} INFO - [2020-11-11 18:01:17,697] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:17,701] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:17,719] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:01:30,865] {scheduler_job.py:154} INFO - Started process (PID=61203) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:30,867] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:01:30,867] {logging_mixin.py:112} INFO - [2020-11-11 18:01:30,867] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:30,872] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:30,889] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:01:44,026] {scheduler_job.py:154} INFO - Started process (PID=61240) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:44,027] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:01:44,027] {logging_mixin.py:112} INFO - [2020-11-11 18:01:44,027] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:44,032] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:44,048] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:01:57,186] {scheduler_job.py:154} INFO - Started process (PID=61273) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:57,187] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:01:57,187] {logging_mixin.py:112} INFO - [2020-11-11 18:01:57,187] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:57,192] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:01:57,221] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.035 seconds
+[2020-11-11 18:02:10,329] {scheduler_job.py:154} INFO - Started process (PID=61345) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:10,330] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:02:10,330] {logging_mixin.py:112} INFO - [2020-11-11 18:02:10,330] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:10,334] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:10,352] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:02:23,487] {scheduler_job.py:154} INFO - Started process (PID=61377) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:23,488] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:02:23,489] {logging_mixin.py:112} INFO - [2020-11-11 18:02:23,489] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:23,493] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:23,509] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:02:36,649] {scheduler_job.py:154} INFO - Started process (PID=61415) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:36,650] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:02:36,651] {logging_mixin.py:112} INFO - [2020-11-11 18:02:36,651] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:36,655] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:36,679] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.030 seconds
+[2020-11-11 18:02:49,860] {scheduler_job.py:154} INFO - Started process (PID=61458) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:49,866] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:02:49,867] {logging_mixin.py:112} INFO - [2020-11-11 18:02:49,867] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:49,880] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:02:49,905] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.044 seconds
+[2020-11-11 18:03:02,987] {scheduler_job.py:154} INFO - Started process (PID=61515) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:02,989] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:03:02,989] {logging_mixin.py:112} INFO - [2020-11-11 18:03:02,989] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:02,993] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:03,011] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:03:16,123] {scheduler_job.py:154} INFO - Started process (PID=61591) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:16,125] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:03:16,125] {logging_mixin.py:112} INFO - [2020-11-11 18:03:16,125] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:16,129] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:16,146] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:03:29,273] {scheduler_job.py:154} INFO - Started process (PID=61621) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:29,274] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:03:29,275] {logging_mixin.py:112} INFO - [2020-11-11 18:03:29,275] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:29,279] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:29,296] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:03:42,427] {scheduler_job.py:154} INFO - Started process (PID=61659) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:42,428] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:03:42,429] {logging_mixin.py:112} INFO - [2020-11-11 18:03:42,429] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:42,434] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:42,451] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:03:55,572] {scheduler_job.py:154} INFO - Started process (PID=61693) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:55,573] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:03:55,573] {logging_mixin.py:112} INFO - [2020-11-11 18:03:55,573] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:55,578] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:03:55,602] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.030 seconds
+[2020-11-11 18:04:08,740] {scheduler_job.py:154} INFO - Started process (PID=61772) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:08,742] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:04:08,742] {logging_mixin.py:112} INFO - [2020-11-11 18:04:08,742] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:08,746] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:08,763] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:04:21,892] {scheduler_job.py:154} INFO - Started process (PID=61806) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:21,893] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:04:21,893] {logging_mixin.py:112} INFO - [2020-11-11 18:04:21,893] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:21,897] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:21,914] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:04:35,051] {scheduler_job.py:154} INFO - Started process (PID=61848) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:35,053] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:04:35,053] {logging_mixin.py:112} INFO - [2020-11-11 18:04:35,053] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:35,057] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:35,073] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:04:48,184] {scheduler_job.py:154} INFO - Started process (PID=61878) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:48,186] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:04:48,186] {logging_mixin.py:112} INFO - [2020-11-11 18:04:48,186] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:48,191] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:04:48,208] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:05:01,330] {scheduler_job.py:154} INFO - Started process (PID=61914) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:01,331] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:05:01,332] {logging_mixin.py:112} INFO - [2020-11-11 18:05:01,332] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:01,336] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:01,353] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:05:14,462] {scheduler_job.py:154} INFO - Started process (PID=61994) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:14,463] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:05:14,463] {logging_mixin.py:112} INFO - [2020-11-11 18:05:14,463] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:14,468] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:14,485] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:05:27,611] {scheduler_job.py:154} INFO - Started process (PID=62026) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:27,612] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:05:27,613] {logging_mixin.py:112} INFO - [2020-11-11 18:05:27,612] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:27,617] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:27,633] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:05:40,763] {scheduler_job.py:154} INFO - Started process (PID=62063) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:40,765] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:05:40,765] {logging_mixin.py:112} INFO - [2020-11-11 18:05:40,765] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:40,769] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:40,792] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.029 seconds
+[2020-11-11 18:05:53,973] {scheduler_job.py:154} INFO - Started process (PID=62098) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:53,979] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:05:53,980] {logging_mixin.py:112} INFO - [2020-11-11 18:05:53,979] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:53,993] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:05:54,016] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.043 seconds
+[2020-11-11 18:06:07,111] {scheduler_job.py:154} INFO - Started process (PID=62177) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:07,113] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:06:07,113] {logging_mixin.py:112} INFO - [2020-11-11 18:06:07,113] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:07,118] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:07,135] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:06:20,315] {scheduler_job.py:154} INFO - Started process (PID=62250) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:20,316] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:06:20,316] {logging_mixin.py:112} INFO - [2020-11-11 18:06:20,316] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:20,321] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:20,338] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:06:33,524] {scheduler_job.py:154} INFO - Started process (PID=62284) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:33,526] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:06:33,526] {logging_mixin.py:112} INFO - [2020-11-11 18:06:33,526] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:33,532] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:33,549] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.025 seconds
+[2020-11-11 18:06:46,720] {scheduler_job.py:154} INFO - Started process (PID=62326) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:46,726] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:06:46,726] {logging_mixin.py:112} INFO - [2020-11-11 18:06:46,726] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:46,743] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:46,774] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.054 seconds
+[2020-11-11 18:06:59,890] {scheduler_job.py:154} INFO - Started process (PID=62360) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:59,893] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:06:59,893] {logging_mixin.py:112} INFO - [2020-11-11 18:06:59,893] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:59,901] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:06:59,922] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.032 seconds
+[2020-11-11 18:07:13,069] {scheduler_job.py:154} INFO - Started process (PID=62435) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:13,070] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:07:13,070] {logging_mixin.py:112} INFO - [2020-11-11 18:07:13,070] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:13,075] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:13,092] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:07:26,246] {scheduler_job.py:154} INFO - Started process (PID=62471) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:26,252] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:07:26,252] {logging_mixin.py:112} INFO - [2020-11-11 18:07:26,252] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:26,270] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:26,301] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.055 seconds
+[2020-11-11 18:07:39,430] {scheduler_job.py:154} INFO - Started process (PID=62508) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:39,433] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:07:39,433] {logging_mixin.py:112} INFO - [2020-11-11 18:07:39,433] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:39,440] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:39,460] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.029 seconds
+[2020-11-11 18:07:52,597] {scheduler_job.py:154} INFO - Started process (PID=62551) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:52,598] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:07:52,598] {logging_mixin.py:112} INFO - [2020-11-11 18:07:52,598] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:52,603] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:07:52,621] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.025 seconds
+[2020-11-11 18:08:05,742] {scheduler_job.py:154} INFO - Started process (PID=62591) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:05,743] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:08:05,743] {logging_mixin.py:112} INFO - [2020-11-11 18:08:05,743] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:05,748] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:05,765] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:08:18,927] {scheduler_job.py:154} INFO - Started process (PID=62679) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:18,929] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:08:18,929] {logging_mixin.py:112} INFO - [2020-11-11 18:08:18,929] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:18,938] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:18,964] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.037 seconds
+[2020-11-11 18:08:32,128] {scheduler_job.py:154} INFO - Started process (PID=62749) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:32,129] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:08:32,129] {logging_mixin.py:112} INFO - [2020-11-11 18:08:32,129] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:32,134] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:32,157] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.029 seconds
+[2020-11-11 18:08:45,327] {scheduler_job.py:154} INFO - Started process (PID=62793) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:45,330] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:08:45,330] {logging_mixin.py:112} INFO - [2020-11-11 18:08:45,330] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:45,337] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:45,357] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.030 seconds
+[2020-11-11 18:08:58,485] {scheduler_job.py:154} INFO - Started process (PID=62827) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:58,487] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:08:58,487] {logging_mixin.py:112} INFO - [2020-11-11 18:08:58,487] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:58,491] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:08:58,508] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:09:11,632] {scheduler_job.py:154} INFO - Started process (PID=62899) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:11,634] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:09:11,634] {logging_mixin.py:112} INFO - [2020-11-11 18:09:11,634] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:11,639] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:11,655] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:09:24,848] {scheduler_job.py:154} INFO - Started process (PID=62958) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:24,854] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:09:24,855] {logging_mixin.py:112} INFO - [2020-11-11 18:09:24,854] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:24,868] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:24,893] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.045 seconds
+[2020-11-11 18:09:37,960] {scheduler_job.py:154} INFO - Started process (PID=64386) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:37,962] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:09:37,962] {logging_mixin.py:112} INFO - [2020-11-11 18:09:37,962] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:37,967] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:37,990] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.030 seconds
+[2020-11-11 18:09:51,132] {scheduler_job.py:154} INFO - Started process (PID=65146) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:51,137] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:09:51,138] {logging_mixin.py:112} INFO - [2020-11-11 18:09:51,138] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:51,150] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:09:51,173] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.042 seconds
+[2020-11-11 18:10:04,333] {scheduler_job.py:154} INFO - Started process (PID=65185) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:04,334] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:10:04,334] {logging_mixin.py:112} INFO - [2020-11-11 18:10:04,334] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:04,338] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:04,355] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:10:17,457] {scheduler_job.py:154} INFO - Started process (PID=65281) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:17,459] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:10:17,459] {logging_mixin.py:112} INFO - [2020-11-11 18:10:17,459] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:17,463] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:17,479] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:10:30,599] {scheduler_job.py:154} INFO - Started process (PID=65315) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:30,601] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:10:30,601] {logging_mixin.py:112} INFO - [2020-11-11 18:10:30,601] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:30,605] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:30,623] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:10:43,823] {scheduler_job.py:154} INFO - Started process (PID=65352) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:43,824] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:10:43,824] {logging_mixin.py:112} INFO - [2020-11-11 18:10:43,824] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:43,829] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:43,853] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.030 seconds
+[2020-11-11 18:10:57,043] {scheduler_job.py:154} INFO - Started process (PID=65386) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:57,049] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:10:57,050] {logging_mixin.py:112} INFO - [2020-11-11 18:10:57,049] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:57,063] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:10:57,105] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.061 seconds
+[2020-11-11 18:11:10,247] {scheduler_job.py:154} INFO - Started process (PID=65468) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:10,252] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:11:10,253] {logging_mixin.py:112} INFO - [2020-11-11 18:11:10,253] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:10,261] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:10,289] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.043 seconds
+[2020-11-11 18:11:23,389] {scheduler_job.py:154} INFO - Started process (PID=65505) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:23,391] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:11:23,391] {logging_mixin.py:112} INFO - [2020-11-11 18:11:23,391] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:23,395] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:23,412] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:11:36,553] {scheduler_job.py:154} INFO - Started process (PID=65556) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:36,554] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:11:36,555] {logging_mixin.py:112} INFO - [2020-11-11 18:11:36,555] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:36,560] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:36,577] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:11:49,672] {scheduler_job.py:154} INFO - Started process (PID=65595) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:49,674] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:11:49,674] {logging_mixin.py:112} INFO - [2020-11-11 18:11:49,674] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:49,679] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:11:49,702] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.030 seconds
+[2020-11-11 18:12:02,813] {scheduler_job.py:154} INFO - Started process (PID=65646) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:02,815] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:12:02,815] {logging_mixin.py:112} INFO - [2020-11-11 18:12:02,815] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:02,819] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:02,835] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:12:15,951] {scheduler_job.py:154} INFO - Started process (PID=65721) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:15,953] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:12:15,953] {logging_mixin.py:112} INFO - [2020-11-11 18:12:15,953] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:15,957] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:15,974] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:12:29,107] {scheduler_job.py:154} INFO - Started process (PID=65757) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:29,109] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:12:29,109] {logging_mixin.py:112} INFO - [2020-11-11 18:12:29,109] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:29,113] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:29,131] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:12:42,259] {scheduler_job.py:154} INFO - Started process (PID=65792) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:42,261] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:12:42,261] {logging_mixin.py:112} INFO - [2020-11-11 18:12:42,261] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:42,265] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:42,282] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.023 seconds
+[2020-11-11 18:12:55,421] {scheduler_job.py:154} INFO - Started process (PID=65832) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:55,422] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:12:55,423] {logging_mixin.py:112} INFO - [2020-11-11 18:12:55,423] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:55,427] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:12:55,443] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:13:08,587] {scheduler_job.py:154} INFO - Started process (PID=65871) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:08,588] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:13:08,588] {logging_mixin.py:112} INFO - [2020-11-11 18:13:08,588] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:08,593] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:08,610] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.024 seconds
+[2020-11-11 18:13:21,727] {scheduler_job.py:154} INFO - Started process (PID=65950) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:21,731] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:13:21,731] {logging_mixin.py:112} INFO - [2020-11-11 18:13:21,731] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:21,741] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:21,762] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.035 seconds
+[2020-11-11 18:13:34,936] {scheduler_job.py:154} INFO - Started process (PID=65990) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:34,937] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:13:34,937] {logging_mixin.py:112} INFO - [2020-11-11 18:13:34,937] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:34,941] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:34,958] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:13:48,099] {scheduler_job.py:154} INFO - Started process (PID=66033) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:48,100] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:13:48,101] {logging_mixin.py:112} INFO - [2020-11-11 18:13:48,101] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:48,105] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:13:48,122] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds
+[2020-11-11 18:14:01,329] {scheduler_job.py:154} INFO - Started process (PID=66067) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:01,335] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:14:01,336] {logging_mixin.py:112} INFO - [2020-11-11 18:14:01,336] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:01,350] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:01,373] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.044 seconds
+[2020-11-11 18:14:14,539] {scheduler_job.py:154} INFO - Started process (PID=66147) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:14,541] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:14:14,541] {logging_mixin.py:112} INFO - [2020-11-11 18:14:14,541] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:14,546] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:14,566] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.026 seconds
+[2020-11-11 18:14:27,769] {scheduler_job.py:154} INFO - Started process (PID=66285) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:27,771] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:14:27,771] {logging_mixin.py:112} INFO - [2020-11-11 18:14:27,771] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:27,779] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:27,801] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.033 seconds
+[2020-11-11 18:14:40,960] {scheduler_job.py:154} INFO - Started process (PID=66349) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:40,964] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:14:40,964] {logging_mixin.py:112} INFO - [2020-11-11 18:14:40,964] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:40,973] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:40,995] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.035 seconds
+[2020-11-11 18:14:54,179] {scheduler_job.py:154} INFO - Started process (PID=66391) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:54,183] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:14:54,184] {logging_mixin.py:112} INFO - [2020-11-11 18:14:54,184] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:54,195] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:14:54,217] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.039 seconds
+[2020-11-11 18:15:07,334] {scheduler_job.py:154} INFO - Started process (PID=66439) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:15:07,335] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:15:07,336] {logging_mixin.py:112} INFO - [2020-11-11 18:15:07,336] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:15:07,340] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:15:07,377] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.043 seconds
+[2020-11-11 18:15:20,497] {scheduler_job.py:154} INFO - Started process (PID=66543) to work on /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:15:20,498] {scheduler_job.py:1589} INFO - Processing file /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py for tasks to queue
+[2020-11-11 18:15:20,499] {logging_mixin.py:112} INFO - [2020-11-11 18:15:20,499] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:15:20,503] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['sleep_task']) retrieved from /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py
+[2020-11-11 18:15:20,519] {scheduler_job.py:162} INFO - Processing /home/nvt/PycharmProjects/test_airflow/dags/sleep_task.py took 0.022 seconds

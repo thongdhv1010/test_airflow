@@ -1,2 +1,4 @@
 apache-airflow[mysql,celery,rabbitmq]==1.10.12
 cattrs==1.0.0
+cassandra-driver==3.22.0
+PyMySQL==0.9.3

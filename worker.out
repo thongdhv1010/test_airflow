@@ -5241,3 +5241,1083 @@ Running %s on host %s <TaskInstance: sleep_task.sleep_task_4 2020-11-01T05:55:00
 [2020-11-11 16:35:01,330: INFO/ForkPoolWorker-6] Task airflow.executors.celery_executor.execute_command[b1a9700a-5b5a-4740-a214-a33f468f75ae] succeeded in 17.920192205000603s: None
 [2020-11-11 16:35:01,367: INFO/ForkPoolWorker-6] Task airflow.executors.celery_executor.execute_command[d0f98780-a9a4-48d2-af92-6b56eab6067d] succeeded in 17.958688615000028s: None
 [2020-11-11 16:35:01,369: INFO/ForkPoolWorker-2] Task airflow.executors.celery_executor.execute_command[5b66fca8-f82c-4b71-9ba5-ac4c9b7b3950] succeeded in 17.9672801050001s: None
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@nvt-B365M-DS3H v4.4.7 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-26-generic-x86_64-with-glibc2.32 2020-11-11 15:25:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         airflow.executors.celery_executor:0x7fc1c2953760
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     mysql://nvt:**@localhost:3306/airflow_result
+- *** --- * --- .> concurrency: 16 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> test_airflow_queue exchange=test_airflow_queue(direct) key=test_airflow_queue
+                
+
+[tasks]
+  . airflow.executors.celery_executor.execute_command
+
+ 
+ -------------- celery@nvt-B365M-DS3H v4.4.7 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-26-generic-x86_64-with-glibc2.32 2020-11-11 15:45:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         airflow.executors.celery_executor:0x7f3163dd6790
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     mysql://nvt:**@localhost:3306/airflow_result
+- *** --- * --- .> concurrency: 16 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> test_airflow_queue exchange=test_airflow_queue(direct) key=test_airflow_queue
+                
+
+[tasks]
+  . airflow.executors.celery_executor.execute_command
+
+ 
+ -------------- celery@nvt-B365M-DS3H v4.4.7 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-26-generic-x86_64-with-glibc2.32 2020-11-11 15:55:13
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         airflow.executors.celery_executor:0x7f2d2d40c6d0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     mysql://nvt:**@localhost:3306/airflow_result
+- *** --- * --- .> concurrency: 16 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> test_airflow_queue exchange=test_airflow_queue(direct) key=test_airflow_queue
+                
+
+[tasks]
+  . airflow.executors.celery_executor.execute_command
+
+WARNING:root:/home/nvt/PycharmProjects/test_airflow/logs/scheduler/2020-11-12 already exists
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:08:06,183] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:08:06,308: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:08:06,317: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:08:07,333: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:08:07,342: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:08:21,583: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[c0f8e5a5-a649-42ab-8f5d-62cd38875194]  
+[2020-11-12 11:08:21,584: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:06:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:08:22,245] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:08:22,245] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:06:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:08:27,471: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[c0f8e5a5-a649-42ab-8f5d-62cd38875194] succeeded in 5.88703030599936s: None
+[2020-11-12 11:10:07,675: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[3b325edc-597d-44bb-afe7-d991bd3637c0]  
+[2020-11-12 11:10:07,675: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:08:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:10:08,354] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:10:08,354] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:08:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:10:13,576: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[3b325edc-597d-44bb-afe7-d991bd3637c0] succeeded in 5.900927421000233s: None
+[2020-11-12 11:12:05,715: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[57a83123-3666-4b17-9359-e27dd2228b4e]  
+[2020-11-12 11:12:05,715: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:10:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:12:06,390] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:12:06,390] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:10:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:12:11,564: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[57a83123-3666-4b17-9359-e27dd2228b4e] succeeded in 5.848202269000467s: None
+[2020-11-12 11:13:23,827: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[21febf8a-4a45-4e6d-99c8-0da379f5a34e]  
+[2020-11-12 11:13:23,828: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:06:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:13:24,522] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:13:24,522] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:06:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:13:29,732: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[21febf8a-4a45-4e6d-99c8-0da379f5a34e] succeeded in 5.903829535999648s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:14:15,233] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:14:15,280: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:14:15,288: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:14:16,307: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:14:16,313: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:14:16,315: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:14:16,639: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[3b3a3001-e355-44b6-9570-1a236500247f]  
+[2020-11-12 11:14:16,640: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:12:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:14:17,400] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:14:17,400] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:12:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:14:22,616: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[3b3a3001-e355-44b6-9570-1a236500247f] succeeded in 5.976347518999319s: None
+
+worker: Warm shutdown (MainProcess)
+[2020-11-12 11:14:48,365: WARNING/MainProcess] Traceback (most recent call last):
+[2020-11-12 11:14:48,365: WARNING/MainProcess] File "/usr/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+[2020-11-12 11:14:48,365: WARNING/MainProcess] File "/usr/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+[2020-11-12 11:14:48,365: WARNING/MainProcess] File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/billiard/pool.py", line 1662, in _terminate_pool
+    cls._help_stuff_finish(*help_stuff_finish_args)
+[2020-11-12 11:14:48,365: WARNING/MainProcess] File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/celery/concurrency/asynpool.py", line 1362, in _help_stuff_finish
+    fileno_to_proc[fd].inq._reader.recv()
+[2020-11-12 11:14:48,365: WARNING/MainProcess] File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/billiard/connection.py", line 279, in recv
+    return ForkingPickler.loadbuf(buf)
+[2020-11-12 11:14:48,365: WARNING/MainProcess] File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/billiard/reduction.py", line 61, in loadbuf
+    return cls.loads(buf.getbuffer())
+[2020-11-12 11:14:48,365: WARNING/MainProcess] EOFError: Ran out of input
+ 
+ -------------- celery@nvt-B365M-DS3H v4.4.7 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-28-generic-x86_64-with-glibc2.32 2020-11-12 11:14:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         airflow.executors.celery_executor:0x7f5ef69e96a0
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     mysql://nvt:**@localhost:3306/airflow_result
+- *** --- * --- .> concurrency: 16 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> test_airflow_queue exchange=test_airflow_queue(direct) key=test_airflow_queue
+                
+
+[tasks]
+  . airflow.executors.celery_executor.execute_command
+
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@nvt-B365M-DS3H v4.4.7 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-28-generic-x86_64-with-glibc2.32 2020-11-12 11:08:05
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         airflow.executors.celery_executor:0x7f49207ea760
+- ** ---------- .> transport:   amqp://guest:**@localhost:5672//
+- ** ---------- .> results:     mysql://nvt:**@localhost:3306/airflow_result
+- *** --- * --- .> concurrency: 16 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> test_airflow_queue exchange=test_airflow_queue(direct) key=test_airflow_queue
+                
+
+[tasks]
+  . airflow.executors.celery_executor.execute_command
+
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:18:23,842] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:18:23,948: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:18:23,954: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:18:24,975: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:18:25,002: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:18:29,285: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[1c90154b-c594-4db5-8688-6c89071dcd98]  
+[2020-11-12 11:18:29,286: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[c20cb1b4-8620-4b19-a2d9-5b2f2b050eae]  
+[2020-11-12 11:18:29,286: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:16:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:18:29,286: INFO/ForkPoolWorker-1] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:08:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:18:29,289: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[45d0a99a-4e68-4420-a2e4-d2c6203eaa4e]  
+[2020-11-12 11:18:29,290: INFO/ForkPoolWorker-2] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:10:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:18:30,178] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:18:30,178] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+[2020-11-12 11:18:30,196] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:18:30,196] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:16:00+00:00 [queued]> nvt-B365M-DS3H
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:08:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:18:30,235] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:18:30,236] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:10:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:18:35,431: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[1c90154b-c594-4db5-8688-6c89071dcd98] succeeded in 6.14451410700002s: None
+[2020-11-12 11:18:35,431: INFO/ForkPoolWorker-1] Task airflow.executors.celery_executor.execute_command[c20cb1b4-8620-4b19-a2d9-5b2f2b050eae] succeeded in 6.145154295999987s: None
+[2020-11-12 11:18:35,457: INFO/ForkPoolWorker-2] Task airflow.executors.celery_executor.execute_command[45d0a99a-4e68-4420-a2e4-d2c6203eaa4e] succeeded in 6.167394201999997s: None
+[2020-11-12 11:20:13,406: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[6f89b9d0-0396-44b5-ae84-dfa14f500903]  
+[2020-11-12 11:20:13,407: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:18:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:20:14,079] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:20:14,079] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:18:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:20:19,295: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[6f89b9d0-0396-44b5-ae84-dfa14f500903] succeeded in 5.887655736999989s: None
+[2020-11-12 11:22:11,523: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[abc626fd-0e46-4feb-899f-9dbc2d542c96]  
+[2020-11-12 11:22:11,523: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:20:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:22:12,221] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:22:12,221] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:20:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:22:17,450: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[abc626fd-0e46-4feb-899f-9dbc2d542c96] succeeded in 5.926664397999957s: None
+[2020-11-12 11:24:11,557: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[3aff876f-9baf-4c8f-af7e-5e3d7eee5ab9]  
+[2020-11-12 11:24:11,557: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:22:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:24:12,225] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:24:12,225] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:22:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:24:17,435: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[3aff876f-9baf-4c8f-af7e-5e3d7eee5ab9] succeeded in 5.877328774000034s: None
+[2020-11-12 11:26:09,684: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[39f4550a-d16a-493d-9548-2dce1cc18906]  
+[2020-11-12 11:26:09,684: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:24:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:26:10,355] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:26:10,355] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:24:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:26:15,568: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[39f4550a-d16a-493d-9548-2dce1cc18906] succeeded in 5.883593018000056s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:28:03,643] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:28:03,700: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:28:03,708: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:28:04,735: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:28:04,745: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:28:04,748: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:28:07,059: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[eb574310-c192-45c2-95b6-11543144343a]  
+[2020-11-12 11:28:07,060: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:26:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:28:07,752] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:28:07,752] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:26:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:28:12,959: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[eb574310-c192-45c2-95b6-11543144343a] succeeded in 5.899592840999958s: None
+[2020-11-12 11:30:05,188: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[5b7182e8-30c1-41fe-82e8-05c322a6ef8f]  
+[2020-11-12 11:30:05,189: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:28:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:30:05,859] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:30:05,859] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:28:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:30:11,074: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[5b7182e8-30c1-41fe-82e8-05c322a6ef8f] succeeded in 5.8854197259998955s: None
+[2020-11-12 11:32:03,244: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[95fd2244-7264-4c4f-887b-c5c5a2a19284]  
+[2020-11-12 11:32:03,245: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:30:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:32:03,902] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:32:03,903] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:30:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:32:09,065: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[95fd2244-7264-4c4f-887b-c5c5a2a19284] succeeded in 5.8198184090000495s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:33:50,479] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:33:50,519: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:33:50,526: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:33:51,546: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:33:51,554: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:33:51,561: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:34:09,883: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[da281d53-aa8c-4d26-a85e-a11d1133bec0]  
+[2020-11-12 11:34:09,884: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:32:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:34:10,556] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:34:10,556] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:32:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:34:15,788: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[da281d53-aa8c-4d26-a85e-a11d1133bec0] succeeded in 5.904058990000067s: None
+[2020-11-12 11:36:08,024: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[ac217e3e-74fe-4611-8c60-36fd43bcf65b]  
+[2020-11-12 11:36:08,025: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:34:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:36:08,707] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:36:08,707] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:34:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:36:13,866: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[ac217e3e-74fe-4611-8c60-36fd43bcf65b] succeeded in 5.840996152999878s: None
+[2020-11-12 11:38:06,152: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[f5d24e58-30bd-4bd6-9fc4-41573982de86]  
+[2020-11-12 11:38:06,152: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:36:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:38:06,852] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:38:06,853] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:36:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:38:12,099: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[f5d24e58-30bd-4bd6-9fc4-41573982de86] succeeded in 5.946161796000069s: None
+[2020-11-12 11:39:24,215: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[142f3243-9817-48d0-a3ac-f3202fd6a9a7]  
+[2020-11-12 11:39:24,216: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:32:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:39:24,886] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:39:24,886] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:32:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:39:30,102: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[142f3243-9817-48d0-a3ac-f3202fd6a9a7] succeeded in 5.886456506000059s: None
+[2020-11-12 11:40:04,287: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[e0b3eb8c-148a-428e-b0d6-a69e5b78feed]  
+[2020-11-12 11:40:04,287: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:38:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:40:04,995] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:40:04,996] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:38:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:40:10,178: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[e0b3eb8c-148a-428e-b0d6-a69e5b78feed] succeeded in 5.891200121999873s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:40:58,182] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:40:58,252: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:40:58,266: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:40:59,292: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:40:59,297: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:40:59,301: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:41:23,576: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[531fc93b-faef-45a8-957a-7c16b171546f]  
+[2020-11-12 11:41:23,577: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:34:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:41:24,467] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:41:24,468] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:34:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:41:29,632: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[531fc93b-faef-45a8-957a-7c16b171546f] succeeded in 6.055341773000009s: None
+[2020-11-12 11:42:03,531: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[0366e113-f659-4665-81d3-16ede3a931f5]  
+[2020-11-12 11:42:03,531: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:40:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:42:04,219] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:42:04,219] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:40:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:42:09,433: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[0366e113-f659-4665-81d3-16ede3a931f5] succeeded in 5.901921278000145s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:43:34,522] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:43:34,549: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:43:34,561: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:43:35,588: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:43:35,604: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:43:35,617: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:43:35,859: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[1b332adf-b384-4479-b470-aed955184a6c]  
+[2020-11-12 11:43:35,860: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:36:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:43:36,653] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:43:36,653] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:36:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:43:41,871: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[1b332adf-b384-4479-b470-aed955184a6c] succeeded in 6.01129257599996s: None
+[2020-11-12 11:44:01,866: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[95279738-cb23-4387-a480-f9aa61deefd1]  
+[2020-11-12 11:44:01,867: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:42:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:44:02,540] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:44:02,540] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:42:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:44:07,759: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[95279738-cb23-4387-a480-f9aa61deefd1] succeeded in 5.891977127000018s: None
+[2020-11-12 11:45:07,979: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[5d7fc624-ade7-4b9f-b089-b93305ae2992]  
+[2020-11-12 11:45:07,979: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:38:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:45:08,686] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:45:08,687] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:38:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:45:13,885: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[5d7fc624-ade7-4b9f-b089-b93305ae2992] succeeded in 5.905347793999908s: None
+[2020-11-12 11:46:14,058: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[69724880-ff56-4aa8-8492-688b4ad560ef]  
+[2020-11-12 11:46:14,059: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:44:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:46:14,708] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:46:14,708] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:44:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:46:19,930: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[69724880-ff56-4aa8-8492-688b4ad560ef] succeeded in 5.871095935999847s: None
+[2020-11-12 11:47:06,085: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[85362404-8ddb-4ffd-9bc9-09e857f39123]  
+[2020-11-12 11:47:06,086: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:40:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:47:06,768] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:47:06,768] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:40:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:47:11,971: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[85362404-8ddb-4ffd-9bc9-09e857f39123] succeeded in 5.884914505000097s: None
+[2020-11-12 11:48:12,103: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[941e4103-0d41-4769-94d2-772b09c2c359]  
+[2020-11-12 11:48:12,104: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:46:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:48:12,776] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:48:12,777] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:46:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:48:17,994: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[941e4103-0d41-4769-94d2-772b09c2c359] succeeded in 5.890002113000037s: None
+[2020-11-12 11:49:04,148: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[6cb915eb-3408-4283-8ab4-9ce36b17cece]  
+[2020-11-12 11:49:04,148: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:42:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:49:04,836] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:49:04,836] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:42:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:49:10,053: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[6cb915eb-3408-4283-8ab4-9ce36b17cece] succeeded in 5.905169013999966s: None
+[2020-11-12 11:49:18,223: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[af9e3cab-a275-46f1-b5b9-924105fac85e]  
+[2020-11-12 11:49:18,224: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:48:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:49:18,896] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:49:18,896] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:48:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:49:23,596: ERROR/ForkPoolWorker-16] execute_command encountered a CalledProcessError
+Traceback (most recent call last):
+  File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/executors/celery_executor.py", line 77, in execute_command
+    subprocess.check_call(command_to_exec, stderr=subprocess.STDOUT,
+  File "/usr/lib/python3.8/subprocess.py", line 364, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:48:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']' died with <Signals.SIGKILL: 9>.
+[2020-11-12 11:49:23,600: ERROR/ForkPoolWorker-16] None
+[2020-11-12 11:49:23,611: WARNING/ForkPoolWorker-16] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/sqlalchemy/engine/default.py:593: Warning: (1300, "Invalid utf8mb4 character string: '800595'")
+  cursor.execute(statement, parameters)
+[2020-11-12 11:49:23,616: ERROR/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[af9e3cab-a275-46f1-b5b9-924105fac85e] raised unexpected: AirflowException('Celery command failed')
+Traceback (most recent call last):
+  File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/executors/celery_executor.py", line 77, in execute_command
+    subprocess.check_call(command_to_exec, stderr=subprocess.STDOUT,
+  File "/usr/lib/python3.8/subprocess.py", line 364, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:48:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']' died with <Signals.SIGKILL: 9>.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/executors/celery_executor.py", line 83, in execute_command
+    raise AirflowException('Celery command failed')
+airflow.exceptions.AirflowException: Celery command failed
+[2020-11-12 11:49:29,260: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:49:29,271: INFO/MainProcess] mingle: searching for neighbors
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:49:29,299] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:49:30,307: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:49:30,328: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:49:30,331: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:50:10,636: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[1509e8c4-eee2-482f-ba1e-8bb91ec3488b]  
+[2020-11-12 11:50:10,636: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:49:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:50:11,338] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:50:11,339] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:49:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:50:16,524: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[1509e8c4-eee2-482f-ba1e-8bb91ec3488b] succeeded in 5.887640473999909s: None
+[2020-11-12 11:50:24,588: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[d133fa62-9807-4a7b-a2f9-e296d5f6bbaf]  
+[2020-11-12 11:50:24,589: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:50:22.077376+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:50:25,320] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:50:25,320] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:50:22.077376+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:50:30,488: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[d133fa62-9807-4a7b-a2f9-e296d5f6bbaf] succeeded in 5.899450508999962s: None
+[2020-11-12 11:51:04,616: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[b1da26d4-9205-4a20-bbf8-2eba249d65bf]  
+[2020-11-12 11:51:04,616: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:50:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:51:05,332] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:51:05,332] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:50:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:51:10,550: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[b1da26d4-9205-4a20-bbf8-2eba249d65bf] succeeded in 5.9335799380000935s: None
+[2020-11-12 11:51:16,621: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[f31780cd-aed4-4d7a-be31-27a14326a50c]  
+[2020-11-12 11:51:16,622: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:44:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:51:17,302] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:51:17,302] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:44:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:51:22,509: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[f31780cd-aed4-4d7a-be31-27a14326a50c] succeeded in 5.886972389999755s: None
+[2020-11-12 11:52:08,695: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[3575ac2e-4e94-4645-9d34-debccc195817]  
+[2020-11-12 11:52:08,696: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:51:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:52:09,363] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:52:09,363] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:51:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:52:14,585: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[3575ac2e-4e94-4645-9d34-debccc195817] succeeded in 5.888775676000023s: None
+[2020-11-12 11:52:29,851: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:52:29,864: INFO/MainProcess] mingle: searching for neighbors
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:52:29,915] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:52:30,883: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:52:30,889: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:52:30,900: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:53:25,207: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[91c74ca3-17c6-47c6-a906-b1a89d0538d6]  
+[2020-11-12 11:53:25,208: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:46:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:53:26,662] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:53:26,662] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:46:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:53:31,894: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[91c74ca3-17c6-47c6-a906-b1a89d0538d6] succeeded in 6.686122155000248s: None
+[2020-11-12 11:54:05,265: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[6f694797-a791-4055-9ff6-8539c62c1612]  
+[2020-11-12 11:54:05,266: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:52:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:54:05,972] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:54:05,972] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:52:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:54:11,188: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[6f694797-a791-4055-9ff6-8539c62c1612] succeeded in 5.922392971000136s: None
+[2020-11-12 11:56:03,379: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[36d4cf59-90cc-4a4f-a580-ee8a7ded56e2]  
+[2020-11-12 11:56:03,380: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:54:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:56:04,048] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:56:04,048] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:54:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:56:09,253: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[36d4cf59-90cc-4a4f-a580-ee8a7ded56e2] succeeded in 5.873068135000267s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 11:56:39,875] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 11:56:39,908: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 11:56:39,937: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 11:56:40,972: INFO/MainProcess] mingle: all alone
+[2020-11-12 11:56:41,008: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 11:56:41,012: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 11:58:09,379: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[a799d88d-df61-404d-be10-519127f0a91e]  
+[2020-11-12 11:58:09,380: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:56:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 11:58:10,948] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 11:58:10,948] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:56:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 11:58:16,152: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[a799d88d-df61-404d-be10-519127f0a91e] succeeded in 6.772285479999937s: None
+[2020-11-12 12:00:07,403: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[206683b7-a617-402d-aedf-39a606f53a07]  
+[2020-11-12 12:00:07,404: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T04:58:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:00:08,428] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:00:08,429] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T04:58:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:00:13,632: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[206683b7-a617-402d-aedf-39a606f53a07] succeeded in 6.228183906999675s: None
+[2020-11-12 12:02:05,553: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[ca1ba3bf-499e-4ed1-8ff4-b56c6e5006eb]  
+[2020-11-12 12:02:05,554: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:02:06,223] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:02:06,224] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:00:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:02:11,414: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[ca1ba3bf-499e-4ed1-8ff4-b56c6e5006eb] succeeded in 5.859519115999774s: None
+[2020-11-12 12:04:03,620: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[c479460b-4527-49ce-a77b-dfe283fb92a7]  
+[2020-11-12 12:04:03,621: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:02:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:04:04,270] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:04:04,270] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:02:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:04:09,485: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[c479460b-4527-49ce-a77b-dfe283fb92a7] succeeded in 5.86424015700004s: None
+[2020-11-12 12:06:01,776: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[3766fed8-b10e-4ec2-a262-5372ee5faac2]  
+[2020-11-12 12:06:01,777: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:04:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:06:02,432] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:06:02,432] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:04:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:06:07,635: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[3766fed8-b10e-4ec2-a262-5372ee5faac2] succeeded in 5.858222280000064s: None
+[2020-11-12 12:08:13,914: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[29486dc9-dd50-4fd1-9301-5253cc99a520]  
+[2020-11-12 12:08:13,915: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:06:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:08:14,569] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:08:14,569] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:06:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:08:19,733: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[29486dc9-dd50-4fd1-9301-5253cc99a520] succeeded in 5.818401935000111s: None
+[2020-11-12 12:10:11,972: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[014bdceb-6b39-4b6e-97f3-665f2d7e7659]  
+[2020-11-12 12:10:11,972: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:08:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:10:12,626] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:10:12,627] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:08:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:10:17,808: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[014bdceb-6b39-4b6e-97f3-665f2d7e7659] succeeded in 5.835669052999947s: None
+[2020-11-12 12:12:10,066: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[00268498-fb4d-45b8-9850-ebd4eb1effdd]  
+[2020-11-12 12:12:10,067: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:10:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:12:10,726] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:12:10,726] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:10:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:12:15,936: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[00268498-fb4d-45b8-9850-ebd4eb1effdd] succeeded in 5.8690544070000215s: None
+[2020-11-12 12:14:08,249: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[9ee856c4-93d4-44f8-ba32-a892e1b434c9]  
+[2020-11-12 12:14:08,250: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:12:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:14:08,905] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:14:08,906] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:12:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:14:14,111: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[9ee856c4-93d4-44f8-ba32-a892e1b434c9] succeeded in 5.86100543900011s: None
+[2020-11-12 12:16:06,347: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[51ceea62-d0a0-48f4-8f00-f70c5c4926cb]  
+[2020-11-12 12:16:06,348: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:14:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:16:07,016] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:16:07,016] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:14:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:16:12,174: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[51ceea62-d0a0-48f4-8f00-f70c5c4926cb] succeeded in 5.826928167999995s: None
+[2020-11-12 12:18:06,415: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[b8883792-d0cc-4891-841d-82559e4c999c]  
+[2020-11-12 12:18:06,415: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:16:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:18:07,186] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:18:07,186] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:16:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:18:12,397: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[b8883792-d0cc-4891-841d-82559e4c999c] succeeded in 5.981631880999885s: None
+[2020-11-12 12:20:04,522: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[1ace8af3-c4a7-4c1a-8b0a-271051e01042]  
+[2020-11-12 12:20:04,523: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:18:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:20:05,195] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:20:05,195] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:18:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:20:10,423: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[1ace8af3-c4a7-4c1a-8b0a-271051e01042] succeeded in 5.9003497640001115s: None
+[2020-11-12 12:22:02,635: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[7492b5b4-07f3-489b-a6cd-a8ac6c41363b]  
+[2020-11-12 12:22:02,635: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:20:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:22:03,288] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:22:03,288] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:20:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:22:08,450: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[7492b5b4-07f3-489b-a6cd-a8ac6c41363b] succeeded in 5.8142855119999695s: None
+[2020-11-12 12:24:12,806: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[90f6cda8-4b54-4cee-bab3-009e0a31254e]  
+[2020-11-12 12:24:12,806: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:22:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:24:13,477] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:24:13,478] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:22:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:24:18,680: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[90f6cda8-4b54-4cee-bab3-009e0a31254e] succeeded in 5.873305118999269s: None
+[2020-11-12 12:26:12,873: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[98db3d53-cfa6-4b32-9b9d-93fbd670ee22]  
+[2020-11-12 12:26:12,874: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:24:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:26:13,537] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:26:13,538] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:24:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:26:18,747: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[98db3d53-cfa6-4b32-9b9d-93fbd670ee22] succeeded in 5.873712719999276s: None
+[2020-11-12 12:28:11,043: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[bce99c69-45f5-497c-a01e-c12850ed6ebe]  
+[2020-11-12 12:28:11,044: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:26:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:28:11,762] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:28:11,762] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:26:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:28:16,928: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[bce99c69-45f5-497c-a01e-c12850ed6ebe] succeeded in 5.88366701599989s: None
+[2020-11-12 12:30:09,141: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[566f1d17-3178-4694-a2cd-b2a5f7c50d99]  
+[2020-11-12 12:30:09,141: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:28:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:30:09,816] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:30:09,816] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:28:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:30:15,022: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[566f1d17-3178-4694-a2cd-b2a5f7c50d99] succeeded in 5.88083277899932s: None
+[2020-11-12 12:32:07,212: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[bd7b769c-b17c-46ce-b835-a7b3b20818b6]  
+[2020-11-12 12:32:07,212: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:30:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:32:07,884] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:32:07,884] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:30:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:32:13,084: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[bd7b769c-b17c-46ce-b835-a7b3b20818b6] succeeded in 5.872187943999961s: None
+[2020-11-12 12:34:05,378: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[cf3da210-d06c-406e-870a-108240bd5f3c]  
+[2020-11-12 12:34:05,379: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:32:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:34:06,054] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:34:06,055] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:32:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:34:11,259: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[cf3da210-d06c-406e-870a-108240bd5f3c] succeeded in 5.880012603000068s: None
+[2020-11-12 12:36:03,491: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[55de364c-18cb-407b-a114-86f0a6b458f8]  
+[2020-11-12 12:36:03,492: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:34:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:36:04,162] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:36:04,162] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:34:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:36:09,319: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[55de364c-18cb-407b-a114-86f0a6b458f8] succeeded in 5.827359797000099s: None
+[2020-11-12 12:38:03,616: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[89c11968-ff45-4c04-bf8b-9f476034f43c]  
+[2020-11-12 12:38:03,616: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:36:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:38:04,279] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:38:04,279] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:36:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:38:09,489: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[89c11968-ff45-4c04-bf8b-9f476034f43c] succeeded in 5.872774481000306s: None
+[2020-11-12 12:40:13,750: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[d6041de6-46f5-45ae-8015-d5d25b20aa9a]  
+[2020-11-12 12:40:13,751: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:38:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:40:14,416] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:40:14,416] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:38:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:40:19,610: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[d6041de6-46f5-45ae-8015-d5d25b20aa9a] succeeded in 5.859033431000171s: None
+[2020-11-12 12:42:11,830: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[8f0c497a-dc2a-4a0e-aadf-1848101e5baa]  
+[2020-11-12 12:42:11,831: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:40:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:42:12,483] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:42:12,483] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:40:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:42:17,690: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[8f0c497a-dc2a-4a0e-aadf-1848101e5baa] succeeded in 5.859623645999818s: None
+[2020-11-12 12:44:11,956: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[c2b0aff1-d3f0-4ffb-8ab1-80f999ab041a]  
+[2020-11-12 12:44:11,957: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:42:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:44:12,619] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:44:12,620] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:42:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:44:17,828: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[c2b0aff1-d3f0-4ffb-8ab1-80f999ab041a] succeeded in 5.870798609999838s: None
+[2020-11-12 12:46:10,061: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[87c894d0-21cc-4bca-8aa9-f515df22caa6]  
+[2020-11-12 12:46:10,062: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:44:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:46:10,724] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:46:10,724] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:44:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:46:15,917: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[87c894d0-21cc-4bca-8aa9-f515df22caa6] succeeded in 5.855545489000178s: None
+[2020-11-12 12:48:08,204: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[07b52017-6f61-4f0e-91a5-bfb1b9155401]  
+[2020-11-12 12:48:08,205: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:46:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:48:08,859] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:48:08,859] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:46:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:48:14,050: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[07b52017-6f61-4f0e-91a5-bfb1b9155401] succeeded in 5.84492934500031s: None
+[2020-11-12 12:50:06,302: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[6cb5a4a0-9d3f-4a12-82a8-7c4de4f0cedb]  
+[2020-11-12 12:50:06,302: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:48:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:50:06,974] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:50:06,974] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:48:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:50:12,138: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[6cb5a4a0-9d3f-4a12-82a8-7c4de4f0cedb] succeeded in 5.83566780900037s: None
+[2020-11-12 12:52:04,421: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[e34bbe23-93cc-44fa-8746-314ea4e8de78]  
+[2020-11-12 12:52:04,422: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:50:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:52:05,084] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:52:05,085] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:50:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:52:10,301: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[e34bbe23-93cc-44fa-8746-314ea4e8de78] succeeded in 5.879150933000346s: None
+[2020-11-12 12:54:02,474: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[63973d9b-00d0-4e19-b33a-181653cf0ae2]  
+[2020-11-12 12:54:02,475: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:52:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:54:03,130] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:54:03,130] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:52:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:54:08,339: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[63973d9b-00d0-4e19-b33a-181653cf0ae2] succeeded in 5.864495308000187s: None
+[2020-11-12 12:56:14,615: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[c9c9a0f8-2d7e-4f43-9bf8-3a4b9a1944a5]  
+[2020-11-12 12:56:14,615: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:54:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:56:15,274] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:56:15,274] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:54:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:56:20,481: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[c9c9a0f8-2d7e-4f43-9bf8-3a4b9a1944a5] succeeded in 5.865939309000169s: None
+[2020-11-12 12:58:12,720: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[203ff2d5-3f8f-4218-8503-0fdd1ced5441]  
+[2020-11-12 12:58:12,721: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:56:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 12:58:13,371] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 12:58:13,371] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:56:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 12:58:18,579: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[203ff2d5-3f8f-4218-8503-0fdd1ced5441] succeeded in 5.858411164999779s: None
+[2020-11-12 13:00:12,850: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[2bc61f82-fb9d-48f3-9ad8-89058d629a90]  
+[2020-11-12 13:00:12,850: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T05:58:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:00:13,506] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:00:13,507] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T05:58:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:00:18,712: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[2bc61f82-fb9d-48f3-9ad8-89058d629a90] succeeded in 5.861524221000764s: None
+[2020-11-12 13:02:10,999: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[a1aec2b8-f27a-42c1-8b77-76d1bc342a32]  
+[2020-11-12 13:02:10,999: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:02:11,672] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:02:11,672] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:00:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:02:16,880: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[a1aec2b8-f27a-42c1-8b77-76d1bc342a32] succeeded in 5.8811103089992685s: None
+[2020-11-12 13:04:09,087: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[026a76a1-985c-410b-b36d-be207729ad4d]  
+[2020-11-12 13:04:09,088: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:02:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:04:09,743] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:04:09,743] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:02:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:04:14,947: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[026a76a1-985c-410b-b36d-be207729ad4d] succeeded in 5.859321442999317s: None
+[2020-11-12 13:06:07,222: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[66dda414-469f-4a11-84d8-da89d23a19fa]  
+[2020-11-12 13:06:07,223: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:04:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:06:07,905] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:06:07,905] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:04:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:06:13,106: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[66dda414-469f-4a11-84d8-da89d23a19fa] succeeded in 5.883720361000087s: None
+[2020-11-12 13:08:05,343: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[42467c1d-0d3e-442d-8cad-412f2b3873e8]  
+[2020-11-12 13:08:05,345: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:06:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:08:06,039] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:08:06,039] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:06:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:08:11,211: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[42467c1d-0d3e-442d-8cad-412f2b3873e8] succeeded in 5.865877201999865s: None
+[2020-11-12 13:10:05,412: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[a78d9b85-84ed-4d45-a895-d3a2d03975dc]  
+[2020-11-12 13:10:05,413: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:08:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:10:06,067] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:10:06,067] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:08:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:10:11,275: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[a78d9b85-84ed-4d45-a895-d3a2d03975dc] succeeded in 5.861935660000199s: None
+[2020-11-12 13:12:03,495: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[c57ec559-821e-4208-83a6-6097c2518a45]  
+[2020-11-12 13:12:03,496: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:10:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:12:04,174] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:12:04,174] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:10:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:12:09,372: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[c57ec559-821e-4208-83a6-6097c2518a45] succeeded in 5.876332538000497s: None
+[2020-11-12 13:14:15,667: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[39105749-5412-4973-af9f-15b25eaf0940]  
+[2020-11-12 13:14:15,668: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:12:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:14:16,337] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:14:16,337] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:12:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:14:21,525: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[39105749-5412-4973-af9f-15b25eaf0940] succeeded in 5.856357605000085s: None
+[2020-11-12 13:16:13,788: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[dbe245e3-d250-47f1-8f1e-b753efbaec18]  
+[2020-11-12 13:16:13,789: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:14:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:16:14,449] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:16:14,449] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:14:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:16:19,670: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[dbe245e3-d250-47f1-8f1e-b753efbaec18] succeeded in 5.880893864999962s: None
+[2020-11-12 13:18:11,823: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[639481a5-4426-4b60-9801-70ff7de6b985]  
+[2020-11-12 13:18:11,824: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:16:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:18:12,489] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:18:12,489] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:16:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:18:17,692: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[639481a5-4426-4b60-9801-70ff7de6b985] succeeded in 5.868457251999644s: None
+[2020-11-12 13:20:09,945: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[341287d7-c5b4-4636-9ae9-5d67fecc1e37]  
+[2020-11-12 13:20:09,946: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:18:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:20:10,610] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:20:10,610] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:18:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:20:15,812: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[341287d7-c5b4-4636-9ae9-5d67fecc1e37] succeeded in 5.865777918000276s: None
+[2020-11-12 13:22:08,109: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[558a212d-7321-4ece-866b-1db777145634]  
+[2020-11-12 13:22:08,109: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:20:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:22:08,761] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:22:08,761] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:20:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:22:13,975: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[558a212d-7321-4ece-866b-1db777145634] succeeded in 5.8657139589995495s: None
+[2020-11-12 13:24:08,218: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[e713573c-d99b-4067-b914-990d154d0753]  
+[2020-11-12 13:24:08,218: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:22:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:24:08,879] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:24:08,879] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:22:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:24:14,088: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[e713573c-d99b-4067-b914-990d154d0753] succeeded in 5.869304292999914s: None
+[2020-11-12 13:26:06,313: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[3ed43249-a3a8-44e7-bcb8-9142ab1ea1a4]  
+[2020-11-12 13:26:06,314: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:24:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:26:06,981] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:26:06,981] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:24:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:26:12,151: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[3ed43249-a3a8-44e7-bcb8-9142ab1ea1a4] succeeded in 5.836556711000412s: None
+[2020-11-12 13:28:04,375: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[329fd9b0-4382-4fbb-9f13-710727710c74]  
+[2020-11-12 13:28:04,376: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:26:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:28:05,030] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:28:05,030] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:26:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:28:10,200: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[329fd9b0-4382-4fbb-9f13-710727710c74] succeeded in 5.824609111000427s: None
+[2020-11-12 13:30:02,471: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[960ed591-bcb2-4592-9bfc-f524082d5114]  
+[2020-11-12 13:30:02,472: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T06:28:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 13:30:03,133] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 13:30:03,133] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T06:28:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 13:30:08,334: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[960ed591-bcb2-4592-9bfc-f524082d5114] succeeded in 5.862775478999538s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 16:09:11,123] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 16:09:11,257: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 16:09:11,280: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 16:09:12,316: INFO/MainProcess] mingle: all alone
+[2020-11-12 16:09:12,328: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 16:09:32,343: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[b899fcdf-f8f4-4409-8413-7e3f06462c8e]  
+[2020-11-12 16:09:32,344: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:06:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:09:33,007] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:09:33,007] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:06:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:09:38,228: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[b899fcdf-f8f4-4409-8413-7e3f06462c8e] succeeded in 5.884414972999366s: None
+[2020-11-12 16:10:10,391: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[2bf68a0f-f2a3-4b9e-a955-6745ae3e2b66]  
+[2020-11-12 16:10:10,392: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:08:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:10:11,177] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:10:11,177] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:08:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:10:16,405: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[2bf68a0f-f2a3-4b9e-a955-6745ae3e2b66] succeeded in 6.012883594999948s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 16:11:02,458] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 16:11:02,485: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 16:11:02,495: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 16:11:03,519: INFO/MainProcess] mingle: all alone
+[2020-11-12 16:11:03,530: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 16:11:03,532: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 16:12:11,904: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[2fa67889-468d-40fe-8597-30b9712dddab]  
+[2020-11-12 16:12:11,904: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:10:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:12:12,570] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:12:12,570] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:10:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:12:17,771: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[2fa67889-468d-40fe-8597-30b9712dddab] succeeded in 5.866563812000095s: None
+[2020-11-12 16:14:10,054: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[3103cd36-dbcc-4927-930e-cdfa9302eb9b]  
+[2020-11-12 16:14:10,055: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:12:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:14:10,754] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:14:10,754] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:12:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:14:15,963: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[3103cd36-dbcc-4927-930e-cdfa9302eb9b] succeeded in 5.9083159860001615s: None
+[2020-11-12 16:16:08,170: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[0920b2f4-267b-4635-8616-7f732ec7ba95]  
+[2020-11-12 16:16:08,170: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:14:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:16:08,881] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:16:08,881] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:14:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:16:14,100: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[0920b2f4-267b-4635-8616-7f732ec7ba95] succeeded in 5.930192202999933s: None
+[2020-11-12 16:18:08,266: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[1038107e-376d-4edd-a306-37024ca01a80]  
+[2020-11-12 16:18:08,267: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:16:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:18:08,926] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:18:08,926] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:16:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:18:14,125: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[1038107e-376d-4edd-a306-37024ca01a80] succeeded in 5.858347311999751s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 16:20:14,769] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 16:20:14,802: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 16:20:14,809: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 16:20:15,881: INFO/MainProcess] mingle: all alone
+[2020-11-12 16:20:15,898: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 16:20:15,920: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 16:20:26,180: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[7a52a221-fe2a-4eb5-8408-f07e1cb2cac7]  
+[2020-11-12 16:20:26,180: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:18:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:20:26,925] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:20:26,925] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:18:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:20:32,155: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[7a52a221-fe2a-4eb5-8408-f07e1cb2cac7] succeeded in 5.974748704999911s: None
+[2020-11-12 16:22:10,281: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[cc7bfffe-5f91-4866-acb0-98cfad0072b3]  
+[2020-11-12 16:22:10,282: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:20:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:22:10,972] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:22:10,972] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:20:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:22:16,176: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[cc7bfffe-5f91-4866-acb0-98cfad0072b3] succeeded in 5.894735835000574s: None
+[2020-11-12 16:24:08,405: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[01efc2fa-2121-4ef1-9f51-38a71db7c789]  
+[2020-11-12 16:24:08,406: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:22:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:24:09,105] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:24:09,106] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:22:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:24:14,349: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[01efc2fa-2121-4ef1-9f51-38a71db7c789] succeeded in 5.943493581999974s: None
+[2020-11-12 16:26:08,499: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[e8d51e17-e713-47f7-a41c-00da3134305d]  
+[2020-11-12 16:26:08,499: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:24:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:26:09,179] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:26:09,180] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:24:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:26:14,342: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[e8d51e17-e713-47f7-a41c-00da3134305d] succeeded in 5.84209286100031s: None
+[2020-11-12 16:28:06,606: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[9539a2ff-8c37-4aea-b921-a4d0fbfe0f1e]  
+[2020-11-12 16:28:06,607: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:26:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:28:07,293] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:28:07,293] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:26:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:28:12,463: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[9539a2ff-8c37-4aea-b921-a4d0fbfe0f1e] succeeded in 5.856482461000269s: None
+[2020-11-12 16:30:04,681: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[6296452e-6773-43b6-abd9-3234d3cf031d]  
+[2020-11-12 16:30:04,682: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:28:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:30:05,378] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:30:05,378] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:28:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:30:10,551: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[6296452e-6773-43b6-abd9-3234d3cf031d] succeeded in 5.869388395999522s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 16:31:18,484] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 16:31:18,510: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 16:31:18,516: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 16:31:19,533: INFO/MainProcess] mingle: all alone
+[2020-11-12 16:31:19,550: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 16:31:19,552: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 16:32:01,952: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[da8367b8-8644-423a-b593-0bd763ed3542]  
+[2020-11-12 16:32:01,953: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:30:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:32:02,668] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:32:02,668] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:30:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:32:07,848: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[da8367b8-8644-423a-b593-0bd763ed3542] succeeded in 5.895096663000004s: None
+[2020-11-12 16:33:21,993: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[d8de37e6-4739-4c09-9d2a-1b7426753422]  
+[2020-11-12 16:33:21,994: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:26:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:33:22,701] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:33:22,702] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:26:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:33:27,869: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[d8de37e6-4739-4c09-9d2a-1b7426753422] succeeded in 5.874868828999752s: None
+[2020-11-12 16:34:14,040: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[b721e8cd-4a4c-4a43-a173-864e61f55d37]  
+[2020-11-12 16:34:14,041: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:32:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:34:14,820] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:34:14,821] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:32:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:34:20,030: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[b721e8cd-4a4c-4a43-a173-864e61f55d37] succeeded in 5.988852802999645s: None
+[2020-11-12 16:35:20,063: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[932e2baf-c120-47fb-9e83-2528881f7a58]  
+[2020-11-12 16:35:20,064: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:28:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:35:20,740] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:35:20,740] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:28:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:35:25,949: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[932e2baf-c120-47fb-9e83-2528881f7a58] succeeded in 5.885778449999634s: None
+[2020-11-12 16:36:12,140: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[153dbc7e-9443-4f0d-895b-1a3bc8ec053f]  
+[2020-11-12 16:36:12,141: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:34:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:36:12,822] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:36:12,822] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:34:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:36:17,991: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[153dbc7e-9443-4f0d-895b-1a3bc8ec053f] succeeded in 5.8501971759997105s: None
+[2020-11-12 16:37:06,186: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[e787cb11-90bc-48b9-bdff-ec2c47556600]  
+[2020-11-12 16:37:06,187: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:30:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:37:06,855] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:37:06,856] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:30:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:37:12,044: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[e787cb11-90bc-48b9-bdff-ec2c47556600] succeeded in 5.856638770000245s: None
+[2020-11-12 16:38:10,221: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[eba3d349-2c23-47f7-ab72-203c3492f2e4]  
+[2020-11-12 16:38:10,222: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:36:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:38:11,356] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:38:11,357] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:36:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:38:16,564: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[eba3d349-2c23-47f7-ab72-203c3492f2e4] succeeded in 6.341877148000094s: None
+[2020-11-12 16:39:30,342: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[bcfe7f78-0dcf-42d0-9ff3-3caa31aec24b]  
+[2020-11-12 16:39:30,342: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:32:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:39:31,094] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:39:31,094] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:32:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:39:36,326: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[bcfe7f78-0dcf-42d0-9ff3-3caa31aec24b] succeeded in 5.983939120999821s: None
+[2020-11-12 16:40:10,342: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[b9a16288-0cb7-4110-a183-dbc48501b98c]  
+[2020-11-12 16:40:10,343: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:38:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:40:11,064] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:40:11,065] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:38:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:40:16,279: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[b9a16288-0cb7-4110-a183-dbc48501b98c] succeeded in 5.936789897999915s: None
+[2020-11-12 16:41:16,395: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[b50087f2-ff7c-4378-8f30-39d8a3007ead]  
+[2020-11-12 16:41:16,396: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:34:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:41:17,080] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:41:17,080] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:34:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:41:22,288: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[b50087f2-ff7c-4378-8f30-39d8a3007ead] succeeded in 5.892717481000545s: None
+Starting flask
+ * Serving Flask app "airflow.bin.cli" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2020-11-12 16:41:29,340] {_internal.py:122} INFO -  * Running on http://0.0.0.0:8793/ (Press CTRL+C to quit)
+[2020-11-12 16:41:29,458: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2020-11-12 16:41:29,470: INFO/MainProcess] mingle: searching for neighbors
+[2020-11-12 16:41:30,635: INFO/MainProcess] mingle: all alone
+[2020-11-12 16:41:30,645: WARNING/MainProcess] /home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/kombu/pidbox.py:74: UserWarning: A node named celery@nvt-B365M-DS3H is already using this process mailbox!
+
+Maybe you forgot to shutdown the other node or did not do so properly?
+Or if you meant to start multiple nodes on the same host please make sure
+you give each node a unique node name!
+
+  warnings.warn(W_PIDBOX_IN_USE.format(node=self))
+[2020-11-12 16:41:30,647: INFO/MainProcess] celery@nvt-B365M-DS3H ready.
+[2020-11-12 16:42:06,808: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[7cfff1df-e47a-4259-a53e-0205209e1398]  
+[2020-11-12 16:42:06,809: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:40:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:42:08,391] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:42:08,391] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:40:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:42:13,602: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[7cfff1df-e47a-4259-a53e-0205209e1398] succeeded in 6.7937009209999815s: None
+[2020-11-12 16:43:24,899: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[45e3fe4d-77d7-4db6-9e8c-1700e22a32b5]  
+[2020-11-12 16:43:24,899: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:36:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:43:26,367] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:43:26,367] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:36:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:43:31,561: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[45e3fe4d-77d7-4db6-9e8c-1700e22a32b5] succeeded in 6.661904395999954s: None
+[2020-11-12 16:44:04,853: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[d4b5ec0b-7ddf-4d2c-9685-9d67e6b30806]  
+[2020-11-12 16:44:04,853: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:42:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:44:05,535] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:44:05,535] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:42:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:44:10,766: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[d4b5ec0b-7ddf-4d2c-9685-9d67e6b30806] succeeded in 5.912336164000408s: None
+[2020-11-12 16:45:22,918: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[670a3b16-c2f5-4d46-9b33-72bf05342c40]  
+[2020-11-12 16:45:22,919: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:38:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:45:23,593] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:45:23,593] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:38:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:45:28,767: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[670a3b16-c2f5-4d46-9b33-72bf05342c40] succeeded in 5.8483769080003185s: None
+[2020-11-12 16:46:02,955: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[0efd18a5-b73c-40c1-b210-e3f86750a76e]  
+[2020-11-12 16:46:02,956: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:44:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:46:03,633] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:46:03,633] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:44:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:46:08,849: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[0efd18a5-b73c-40c1-b210-e3f86750a76e] succeeded in 5.89279208500011s: None
+[2020-11-12 16:48:15,081: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[db4ce1a2-9e3d-4cb4-b72a-d3575827b0b4]  
+[2020-11-12 16:48:15,082: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:46:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:48:15,736] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:48:15,737] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:46:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:48:20,941: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[db4ce1a2-9e3d-4cb4-b72a-d3575827b0b4] succeeded in 5.859455664000052s: None
+[2020-11-12 16:50:13,231: INFO/MainProcess] Received task: airflow.executors.celery_executor.execute_command[9d2b02d5-8350-48c9-9aa0-617e99767a1a]  
+[2020-11-12 16:50:13,232: INFO/ForkPoolWorker-16] Executing command in Celery: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-12T09:48:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-12 16:50:13,901] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:50:13,901] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+Running %s on host %s <TaskInstance: aggregate_action_user.get_user_action 2020-11-12T09:48:00+00:00 [queued]> nvt-B365M-DS3H
+[2020-11-12 16:50:19,101: INFO/ForkPoolWorker-16] Task airflow.executors.celery_executor.execute_command[9d2b02d5-8350-48c9-9aa0-617e99767a1a] succeeded in 5.869408096999905s: None
