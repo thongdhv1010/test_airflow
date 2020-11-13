@@ -9826,3 +9826,1627 @@ Logfiles: - -
   settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
 [2020-11-12 16:50:36 +0700] [33018] [INFO] Handling signal: ttou
 [2020-11-12 16:50:36 +0700] [35382] [INFO] Worker exiting (pid: 35382)
+[2020-11-12 16:51:05 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:51:05 +0700] [36294] [INFO] Booting worker with pid: 36294
+[2020-11-12 16:51:06,294] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:51:06,294] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:51:07 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:51:07 +0700] [35508] [INFO] Worker exiting (pid: 35508)
+[2020-11-12 16:51:36 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:51:36 +0700] [36446] [INFO] Booting worker with pid: 36446
+[2020-11-12 16:51:36,465] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:51:36,465] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:51:37 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:51:37 +0700] [35708] [INFO] Worker exiting (pid: 35708)
+[2020-11-12 16:52:06 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:52:06 +0700] [36566] [INFO] Booting worker with pid: 36566
+[2020-11-12 16:52:06,851] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:52:06,851] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:52:07 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:52:07 +0700] [35836] [INFO] Worker exiting (pid: 35836)
+[2020-11-12 16:52:36 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:52:36 +0700] [36753] [INFO] Booting worker with pid: 36753
+[2020-11-12 16:52:37,198] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:52:37,198] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:52:38 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:52:38 +0700] [36052] [INFO] Worker exiting (pid: 36052)
+[2020-11-12 16:53:07 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:53:07 +0700] [36861] [INFO] Booting worker with pid: 36861
+[2020-11-12 16:53:07,448] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:53:07,448] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:53:08 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:53:08 +0700] [36294] [INFO] Worker exiting (pid: 36294)
+[2020-11-12 16:53:37 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:53:37 +0700] [37036] [INFO] Booting worker with pid: 37036
+[2020-11-12 16:53:37,618] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:53:37,619] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:53:38 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:53:38 +0700] [36446] [INFO] Worker exiting (pid: 36446)
+[2020-11-12 16:54:07 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:54:07 +0700] [37163] [INFO] Booting worker with pid: 37163
+[2020-11-12 16:54:07,936] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:54:07,937] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:54:08 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:54:08 +0700] [36566] [INFO] Worker exiting (pid: 36566)
+[2020-11-12 16:54:37 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:54:37 +0700] [37389] [INFO] Booting worker with pid: 37389
+[2020-11-12 16:54:38,070] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:54:38,070] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:54:38 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:54:38 +0700] [36753] [INFO] Worker exiting (pid: 36753)
+[2020-11-12 16:55:08 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:55:08 +0700] [37500] [INFO] Booting worker with pid: 37500
+[2020-11-12 16:55:08,564] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:55:08,565] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:55:09 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:55:09 +0700] [36861] [INFO] Worker exiting (pid: 36861)
+[2020-11-12 16:55:38 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:55:38 +0700] [37668] [INFO] Booting worker with pid: 37668
+[2020-11-12 16:55:38,942] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:55:38,942] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:55:39 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:55:39 +0700] [37036] [INFO] Worker exiting (pid: 37036)
+[2020-11-12 16:56:09 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:56:09 +0700] [37811] [INFO] Booting worker with pid: 37811
+[2020-11-12 16:56:09,361] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:56:09,361] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:56:10 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:56:10 +0700] [37163] [INFO] Worker exiting (pid: 37163)
+[2020-11-12 16:56:39 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:56:39 +0700] [38001] [INFO] Booting worker with pid: 38001
+[2020-11-12 16:56:39,771] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:56:39,772] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:56:40 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:56:40 +0700] [37389] [INFO] Worker exiting (pid: 37389)
+[2020-11-12 16:57:09 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:57:09 +0700] [38110] [INFO] Booting worker with pid: 38110
+[2020-11-12 16:57:10,222] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:57:10,222] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:57:11 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:57:11 +0700] [37500] [INFO] Worker exiting (pid: 37500)
+[2020-11-12 16:57:40 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:57:40 +0700] [38285] [INFO] Booting worker with pid: 38285
+[2020-11-12 16:57:40,651] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:57:40,651] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:57:41 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:57:41 +0700] [37668] [INFO] Worker exiting (pid: 37668)
+[2020-11-12 16:58:10 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:58:10 +0700] [38458] [INFO] Booting worker with pid: 38458
+[2020-11-12 16:58:11,147] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:58:11,148] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:58:12 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:58:12 +0700] [37811] [INFO] Worker exiting (pid: 37811)
+[2020-11-12 16:58:41 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:58:41 +0700] [38618] [INFO] Booting worker with pid: 38618
+[2020-11-12 16:58:41,597] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:58:41,598] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:58:42 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:58:42 +0700] [38001] [INFO] Worker exiting (pid: 38001)
+[2020-11-12 16:59:11 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:59:11 +0700] [38763] [INFO] Booting worker with pid: 38763
+[2020-11-12 16:59:12,086] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:59:12,086] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:59:12 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:59:12 +0700] [38110] [INFO] Worker exiting (pid: 38110)
+[2020-11-12 16:59:42 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 16:59:42 +0700] [38950] [INFO] Booting worker with pid: 38950
+[2020-11-12 16:59:42,591] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 16:59:42,592] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 16:59:43 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 16:59:43 +0700] [38285] [INFO] Worker exiting (pid: 38285)
+[2020-11-12 17:00:12 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:00:12 +0700] [39113] [INFO] Booting worker with pid: 39113
+[2020-11-12 17:00:12,896] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:00:12,896] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:00:13 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:00:13 +0700] [38458] [INFO] Worker exiting (pid: 38458)
+[2020-11-12 17:00:42 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:00:42 +0700] [39317] [INFO] Booting worker with pid: 39317
+[2020-11-12 17:00:43,095] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:00:43,095] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:00:43 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:00:43 +0700] [38618] [INFO] Worker exiting (pid: 38618)
+[2020-11-12 17:01:12 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:01:12 +0700] [39438] [INFO] Booting worker with pid: 39438
+[2020-11-12 17:01:13,183] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:01:13,184] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:01:14 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:01:14 +0700] [38763] [INFO] Worker exiting (pid: 38763)
+[2020-11-12 17:01:43 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:01:43 +0700] [39598] [INFO] Booting worker with pid: 39598
+[2020-11-12 17:01:43,448] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:01:43,448] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:01:44 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:01:44 +0700] [38950] [INFO] Worker exiting (pid: 38950)
+[2020-11-12 17:02:13 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:02:13 +0700] [39762] [INFO] Booting worker with pid: 39762
+[2020-11-12 17:02:13,869] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:02:13,869] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:02:14 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:02:14 +0700] [39113] [INFO] Worker exiting (pid: 39113)
+[2020-11-12 17:02:43 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:02:43 +0700] [39945] [INFO] Booting worker with pid: 39945
+[2020-11-12 17:02:44,125] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:02:44,125] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:02:45 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:02:45 +0700] [39317] [INFO] Worker exiting (pid: 39317)
+[2020-11-12 17:03:14 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:03:14 +0700] [40053] [INFO] Booting worker with pid: 40053
+[2020-11-12 17:03:14,675] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:03:14,675] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:03:15 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:03:15 +0700] [39438] [INFO] Worker exiting (pid: 39438)
+[2020-11-12 17:03:44 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:03:44 +0700] [40218] [INFO] Booting worker with pid: 40218
+[2020-11-12 17:03:45,126] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:03:45,126] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:03:46 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:03:46 +0700] [39598] [INFO] Worker exiting (pid: 39598)
+[2020-11-12 17:04:15 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:04:15 +0700] [40419] [INFO] Booting worker with pid: 40419
+[2020-11-12 17:04:15,440] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:04:15,441] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:04:16 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:04:16 +0700] [39762] [INFO] Worker exiting (pid: 39762)
+[2020-11-12 17:04:45 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:04:45 +0700] [40568] [INFO] Booting worker with pid: 40568
+[2020-11-12 17:04:45,848] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:04:45,848] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:04:46 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:04:46 +0700] [39945] [INFO] Worker exiting (pid: 39945)
+[2020-11-12 17:05:15 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:05:15 +0700] [40733] [INFO] Booting worker with pid: 40733
+[2020-11-12 17:05:16,099] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:05:16,100] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:05:16 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:05:16 +0700] [40053] [INFO] Worker exiting (pid: 40053)
+[2020-11-12 17:05:46 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:05:46 +0700] [40871] [INFO] Booting worker with pid: 40871
+[2020-11-12 17:05:46,431] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:05:46,431] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:05:47 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:05:47 +0700] [40218] [INFO] Worker exiting (pid: 40218)
+[2020-11-12 17:06:16 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:06:16 +0700] [41094] [INFO] Booting worker with pid: 41094
+[2020-11-12 17:06:16,571] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:06:16,572] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:06:17 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:06:17 +0700] [40419] [INFO] Worker exiting (pid: 40419)
+[2020-11-12 17:06:46 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:06:46 +0700] [41213] [INFO] Booting worker with pid: 41213
+[2020-11-12 17:06:46,958] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:06:46,958] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:06:47 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:06:47 +0700] [40568] [INFO] Worker exiting (pid: 40568)
+[2020-11-12 17:07:17 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:07:17 +0700] [41373] [INFO] Booting worker with pid: 41373
+[2020-11-12 17:07:17,355] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:07:17,356] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:07:18 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:07:18 +0700] [40733] [INFO] Worker exiting (pid: 40733)
+[2020-11-12 17:07:47 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:07:47 +0700] [41519] [INFO] Booting worker with pid: 41519
+[2020-11-12 17:07:47,541] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:07:47,541] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:07:48 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:07:48 +0700] [40871] [INFO] Worker exiting (pid: 40871)
+[2020-11-12 17:08:17 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:08:17 +0700] [41707] [INFO] Booting worker with pid: 41707
+[2020-11-12 17:08:17,873] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:08:17,873] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:08:18 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:08:18 +0700] [41094] [INFO] Worker exiting (pid: 41094)
+[2020-11-12 17:08:48 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:08:48 +0700] [41855] [INFO] Booting worker with pid: 41855
+[2020-11-12 17:08:48,295] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:08:48,295] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:08:49 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:08:49 +0700] [41213] [INFO] Worker exiting (pid: 41213)
+[2020-11-12 17:09:18 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:09:18 +0700] [42068] [INFO] Booting worker with pid: 42068
+[2020-11-12 17:09:18,708] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:09:18,708] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:09:19 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:09:19 +0700] [41373] [INFO] Worker exiting (pid: 41373)
+[2020-11-12 17:09:48 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:09:48 +0700] [42268] [INFO] Booting worker with pid: 42268
+[2020-11-12 17:09:49,071] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:09:49,071] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:09:49 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:09:49 +0700] [41519] [INFO] Worker exiting (pid: 41519)
+[2020-11-12 17:10:19 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:10:19 +0700] [42476] [INFO] Booting worker with pid: 42476
+[2020-11-12 17:10:19,404] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:10:19,404] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:10:20 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:10:20 +0700] [41707] [INFO] Worker exiting (pid: 41707)
+[2020-11-12 17:10:49 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:10:49 +0700] [42634] [INFO] Booting worker with pid: 42634
+[2020-11-12 17:10:49,674] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:10:49,674] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:10:50 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:10:50 +0700] [41855] [INFO] Worker exiting (pid: 41855)
+[2020-11-12 17:11:19 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:11:19 +0700] [42787] [INFO] Booting worker with pid: 42787
+[2020-11-12 17:11:19,940] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:11:19,940] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:11:20 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:11:20 +0700] [42068] [INFO] Worker exiting (pid: 42068)
+[2020-11-12 17:11:50 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:11:50 +0700] [42907] [INFO] Booting worker with pid: 42907
+[2020-11-12 17:11:50,923] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:11:50,923] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:11:51 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:11:51 +0700] [42268] [INFO] Worker exiting (pid: 42268)
+[2020-11-12 17:12:21 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:12:21 +0700] [43120] [INFO] Booting worker with pid: 43120
+[2020-11-12 17:12:21,273] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:12:21,273] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:12:22 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:12:22 +0700] [42476] [INFO] Worker exiting (pid: 42476)
+[2020-11-12 17:12:51 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:12:51 +0700] [43230] [INFO] Booting worker with pid: 43230
+[2020-11-12 17:12:51,530] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:12:51,530] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:12:52 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:12:52 +0700] [42634] [INFO] Worker exiting (pid: 42634)
+[2020-11-12 17:13:21 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:13:21 +0700] [43379] [INFO] Booting worker with pid: 43379
+[2020-11-12 17:13:21,648] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:13:21,648] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:13:22 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:13:22 +0700] [42787] [INFO] Worker exiting (pid: 42787)
+[2020-11-12 17:13:51 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:13:51 +0700] [43524] [INFO] Booting worker with pid: 43524
+[2020-11-12 17:13:52,029] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:13:52,030] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:13:52 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:13:52 +0700] [42907] [INFO] Worker exiting (pid: 42907)
+[2020-11-12 17:14:22 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:14:22 +0700] [43746] [INFO] Booting worker with pid: 43746
+[2020-11-12 17:14:22,477] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:14:22,477] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:14:23 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:14:23 +0700] [43120] [INFO] Worker exiting (pid: 43120)
+[2020-11-12 17:14:52 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:14:52 +0700] [43853] [INFO] Booting worker with pid: 43853
+[2020-11-12 17:14:52,728] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:14:52,728] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:14:53 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:14:53 +0700] [43230] [INFO] Worker exiting (pid: 43230)
+[2020-11-12 17:15:22 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:15:22 +0700] [44001] [INFO] Booting worker with pid: 44001
+[2020-11-12 17:15:22,920] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:15:22,920] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:15:23 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:15:23 +0700] [43379] [INFO] Worker exiting (pid: 43379)
+[2020-11-12 17:15:52 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:15:52 +0700] [44178] [INFO] Booting worker with pid: 44178
+[2020-11-12 17:15:53,248] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:15:53,248] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:15:54 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:15:54 +0700] [43524] [INFO] Worker exiting (pid: 43524)
+[2020-11-12 17:16:23 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:16:23 +0700] [44366] [INFO] Booting worker with pid: 44366
+[2020-11-12 17:16:23,405] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:16:23,405] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:16:24 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:16:24 +0700] [43746] [INFO] Worker exiting (pid: 43746)
+[2020-11-12 17:16:53 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:16:53 +0700] [44469] [INFO] Booting worker with pid: 44469
+[2020-11-12 17:16:53,571] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:16:53,571] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:16:54 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:16:54 +0700] [43853] [INFO] Worker exiting (pid: 43853)
+[2020-11-12 17:17:23 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:17:23 +0700] [44639] [INFO] Booting worker with pid: 44639
+[2020-11-12 17:17:23,907] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:17:23,908] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:17:24 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:17:24 +0700] [44001] [INFO] Worker exiting (pid: 44001)
+[2020-11-12 17:17:53 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:17:53 +0700] [44766] [INFO] Booting worker with pid: 44766
+[2020-11-12 17:17:54,093] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:17:54,093] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:17:54 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:17:54 +0700] [44178] [INFO] Worker exiting (pid: 44178)
+[2020-11-12 17:18:24 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:18:24 +0700] [44955] [INFO] Booting worker with pid: 44955
+[2020-11-12 17:18:25,028] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:18:25,028] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:18:25 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:18:25 +0700] [44366] [INFO] Worker exiting (pid: 44366)
+[2020-11-12 17:18:54 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:18:54 +0700] [45058] [INFO] Booting worker with pid: 45058
+[2020-11-12 17:18:55,180] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:18:55,181] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:18:56 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:18:56 +0700] [44469] [INFO] Worker exiting (pid: 44469)
+[2020-11-12 17:19:25 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:19:25 +0700] [45240] [INFO] Booting worker with pid: 45240
+[2020-11-12 17:19:25,482] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:19:25,482] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:19:26 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:19:26 +0700] [44639] [INFO] Worker exiting (pid: 44639)
+[2020-11-12 17:19:55 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:19:55 +0700] [45382] [INFO] Booting worker with pid: 45382
+[2020-11-12 17:19:55,774] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:19:55,774] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:19:56 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:19:56 +0700] [44766] [INFO] Worker exiting (pid: 44766)
+127.0.0.1 - - [12/Nov/2020:17:20:02 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:17:20:02 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6930 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:17:20:02 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:17:20:02 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:17:20:02 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-12 17:20:25 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:20:25 +0700] [45594] [INFO] Booting worker with pid: 45594
+[2020-11-12 17:20:26,090] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:20:26,090] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:20:26 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:20:26 +0700] [44955] [INFO] Worker exiting (pid: 44955)
+[2020-11-12 17:20:56 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:20:56 +0700] [45771] [INFO] Booting worker with pid: 45771
+[2020-11-12 17:20:56,270] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:20:56,270] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:20:57 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:20:57 +0700] [45058] [INFO] Worker exiting (pid: 45058)
+[2020-11-12 17:21:27 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:21:27 +0700] [45928] [INFO] Booting worker with pid: 45928
+[2020-11-12 17:21:27,398] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:21:27,398] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:21:28 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:21:28 +0700] [45240] [INFO] Worker exiting (pid: 45240)
+[2020-11-12 17:21:57 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:21:57 +0700] [46035] [INFO] Booting worker with pid: 46035
+[2020-11-12 17:21:57,616] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:21:57,616] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:21:58 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:21:58 +0700] [45382] [INFO] Worker exiting (pid: 45382)
+[2020-11-12 17:22:27 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:22:27 +0700] [46225] [INFO] Booting worker with pid: 46225
+[2020-11-12 17:22:27,998] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:22:27,999] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:22:28 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:22:28 +0700] [45594] [INFO] Worker exiting (pid: 45594)
+[2020-11-12 17:22:58 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:22:58 +0700] [46330] [INFO] Booting worker with pid: 46330
+[2020-11-12 17:22:58,350] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:22:58,350] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:22:59 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:22:59 +0700] [45771] [INFO] Worker exiting (pid: 45771)
+[2020-11-12 17:23:28 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:23:28 +0700] [46513] [INFO] Booting worker with pid: 46513
+[2020-11-12 17:23:28,649] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:23:28,649] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:23:29 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:23:29 +0700] [45928] [INFO] Worker exiting (pid: 45928)
+[2020-11-12 17:23:58 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:23:58 +0700] [46627] [INFO] Booting worker with pid: 46627
+[2020-11-12 17:23:59,017] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:23:59,017] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:23:59 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:23:59 +0700] [46035] [INFO] Worker exiting (pid: 46035)
+[2020-11-12 17:24:29 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:24:29 +0700] [46846] [INFO] Booting worker with pid: 46846
+[2020-11-12 17:24:29,244] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:24:29,244] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:24:30 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:24:30 +0700] [46225] [INFO] Worker exiting (pid: 46225)
+[2020-11-12 17:24:59 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:24:59 +0700] [46950] [INFO] Booting worker with pid: 46950
+[2020-11-12 17:24:59,605] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:24:59,605] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:25:00 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:25:00 +0700] [46330] [INFO] Worker exiting (pid: 46330)
+[2020-11-12 17:25:29 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:25:29 +0700] [47143] [INFO] Booting worker with pid: 47143
+[2020-11-12 17:25:29,736] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:25:29,736] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:25:30 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:25:30 +0700] [46513] [INFO] Worker exiting (pid: 46513)
+[2020-11-12 17:25:59 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:25:59 +0700] [47279] [INFO] Booting worker with pid: 47279
+[2020-11-12 17:25:59,864] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:25:59,864] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:26:00 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:26:00 +0700] [46627] [INFO] Worker exiting (pid: 46627)
+[2020-11-12 17:26:29 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:26:29 +0700] [47469] [INFO] Booting worker with pid: 47469
+[2020-11-12 17:26:30,042] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:26:30,042] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:26:30 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:26:30 +0700] [46846] [INFO] Worker exiting (pid: 46846)
+[2020-11-12 17:27:00 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:27:00 +0700] [47758] [INFO] Booting worker with pid: 47758
+[2020-11-12 17:27:00,833] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:27:00,833] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:27:01 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:27:01 +0700] [46950] [INFO] Worker exiting (pid: 46950)
+[2020-11-12 17:27:30 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:27:30 +0700] [47991] [INFO] Booting worker with pid: 47991
+[2020-11-12 17:27:30,891] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:27:30,892] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:27:31 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:27:31 +0700] [47143] [INFO] Worker exiting (pid: 47143)
+[2020-11-12 17:28:01 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:28:01 +0700] [48180] [INFO] Booting worker with pid: 48180
+[2020-11-12 17:28:01,501] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:28:01,502] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:28:02 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:28:02 +0700] [47279] [INFO] Worker exiting (pid: 47279)
+[2020-11-12 17:28:31 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:28:31 +0700] [48398] [INFO] Booting worker with pid: 48398
+[2020-11-12 17:28:31,673] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:28:31,673] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:28:32 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:28:32 +0700] [47469] [INFO] Worker exiting (pid: 47469)
+[2020-11-12 17:29:01 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:29:01 +0700] [48508] [INFO] Booting worker with pid: 48508
+[2020-11-12 17:29:02,054] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:29:02,054] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:29:02 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:29:02 +0700] [47758] [INFO] Worker exiting (pid: 47758)
+[2020-11-12 17:29:32 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:29:32 +0700] [48783] [INFO] Booting worker with pid: 48783
+[2020-11-12 17:29:32,602] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:29:32,602] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:29:33 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:29:33 +0700] [47991] [INFO] Worker exiting (pid: 47991)
+[2020-11-12 17:30:02 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:30:02 +0700] [48913] [INFO] Booting worker with pid: 48913
+[2020-11-12 17:30:03,174] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:30:03,174] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:30:04 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:30:04 +0700] [48180] [INFO] Worker exiting (pid: 48180)
+[2020-11-12 17:30:33 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:30:33 +0700] [49167] [INFO] Booting worker with pid: 49167
+[2020-11-12 17:30:33,720] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:30:33,721] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:30:34 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:30:34 +0700] [48398] [INFO] Worker exiting (pid: 48398)
+[2020-11-12 17:31:04 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:31:04 +0700] [49329] [INFO] Booting worker with pid: 49329
+[2020-11-12 17:31:04,300] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:31:04,300] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:31:05 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:31:05 +0700] [48508] [INFO] Worker exiting (pid: 48508)
+[2020-11-12 17:31:34 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:31:34 +0700] [49498] [INFO] Booting worker with pid: 49498
+[2020-11-12 17:31:34,715] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:31:34,716] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:31:35 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:31:35 +0700] [48783] [INFO] Worker exiting (pid: 48783)
+[2020-11-12 17:32:04 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:32:04 +0700] [49627] [INFO] Booting worker with pid: 49627
+[2020-11-12 17:32:05,242] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:32:05,243] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:32:06 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:32:06 +0700] [48913] [INFO] Worker exiting (pid: 48913)
+[2020-11-12 17:32:35 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:32:35 +0700] [49851] [INFO] Booting worker with pid: 49851
+[2020-11-12 17:32:35,735] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:32:35,735] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:32:36 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:32:36 +0700] [49167] [INFO] Worker exiting (pid: 49167)
+[2020-11-12 17:33:06 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:33:06 +0700] [49964] [INFO] Booting worker with pid: 49964
+[2020-11-12 17:33:06,285] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:33:06,285] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:33:07 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:33:07 +0700] [49329] [INFO] Worker exiting (pid: 49329)
+[2020-11-12 17:33:36 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:33:36 +0700] [50130] [INFO] Booting worker with pid: 50130
+[2020-11-12 17:33:36,726] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:33:36,726] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:33:37 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:33:37 +0700] [49498] [INFO] Worker exiting (pid: 49498)
+[2020-11-12 17:34:06 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:34:06 +0700] [50276] [INFO] Booting worker with pid: 50276
+[2020-11-12 17:34:07,142] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:34:07,142] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:34:08 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:34:08 +0700] [49627] [INFO] Worker exiting (pid: 49627)
+[2020-11-12 17:34:37 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:34:37 +0700] [50500] [INFO] Booting worker with pid: 50500
+[2020-11-12 17:34:37,556] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:34:37,557] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:34:38 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:34:38 +0700] [49851] [INFO] Worker exiting (pid: 49851)
+[2020-11-12 17:35:07 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:35:07 +0700] [50608] [INFO] Booting worker with pid: 50608
+[2020-11-12 17:35:07,973] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:35:07,973] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:35:08 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:35:08 +0700] [49964] [INFO] Worker exiting (pid: 49964)
+[2020-11-12 17:35:38 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:35:38 +0700] [50758] [INFO] Booting worker with pid: 50758
+[2020-11-12 17:35:38,269] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:35:38,269] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:35:39 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:35:39 +0700] [50130] [INFO] Worker exiting (pid: 50130)
+[2020-11-12 17:36:08 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:36:08 +0700] [50928] [INFO] Booting worker with pid: 50928
+[2020-11-12 17:36:08,713] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:36:08,713] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:36:09 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:36:09 +0700] [50276] [INFO] Worker exiting (pid: 50276)
+[2020-11-12 17:36:38 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:36:38 +0700] [51111] [INFO] Booting worker with pid: 51111
+[2020-11-12 17:36:38,967] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:36:38,967] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:36:39 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:36:39 +0700] [50500] [INFO] Worker exiting (pid: 50500)
+[2020-11-12 17:37:09 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:37:09 +0700] [51223] [INFO] Booting worker with pid: 51223
+[2020-11-12 17:37:09,256] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:37:09,256] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:37:10 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:37:10 +0700] [50608] [INFO] Worker exiting (pid: 50608)
+[2020-11-12 17:37:39 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:37:39 +0700] [51383] [INFO] Booting worker with pid: 51383
+[2020-11-12 17:37:39,811] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:37:39,811] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:37:40 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:37:40 +0700] [50758] [INFO] Worker exiting (pid: 50758)
+[2020-11-12 17:38:10 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:38:10 +0700] [51538] [INFO] Booting worker with pid: 51538
+[2020-11-12 17:38:10,402] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:38:10,402] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:38:11 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:38:11 +0700] [50928] [INFO] Worker exiting (pid: 50928)
+[2020-11-12 17:38:40 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:38:40 +0700] [51696] [INFO] Booting worker with pid: 51696
+[2020-11-12 17:38:40,774] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:38:40,774] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:38:41 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:38:41 +0700] [51111] [INFO] Worker exiting (pid: 51111)
+[2020-11-12 17:39:10 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:39:10 +0700] [51850] [INFO] Booting worker with pid: 51850
+[2020-11-12 17:39:11,229] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:39:11,229] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:39:12 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:39:12 +0700] [51223] [INFO] Worker exiting (pid: 51223)
+[2020-11-12 17:39:41 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:39:41 +0700] [52039] [INFO] Booting worker with pid: 52039
+[2020-11-12 17:39:41,453] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:39:41,453] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:39:42 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:39:42 +0700] [51383] [INFO] Worker exiting (pid: 51383)
+[2020-11-12 17:40:11 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:40:11 +0700] [52180] [INFO] Booting worker with pid: 52180
+[2020-11-12 17:40:11,739] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:40:11,739] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:40:12 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:40:12 +0700] [51538] [INFO] Worker exiting (pid: 51538)
+[2020-11-12 17:40:41 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:40:41 +0700] [52338] [INFO] Booting worker with pid: 52338
+[2020-11-12 17:40:41,937] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:40:41,938] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:40:42 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:40:42 +0700] [51696] [INFO] Worker exiting (pid: 51696)
+[2020-11-12 17:41:12 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:41:12 +0700] [52505] [INFO] Booting worker with pid: 52505
+[2020-11-12 17:41:12,310] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:41:12,310] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:41:13 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:41:13 +0700] [51850] [INFO] Worker exiting (pid: 51850)
+[2020-11-12 17:41:42 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:41:42 +0700] [52765] [INFO] Booting worker with pid: 52765
+[2020-11-12 17:41:42,514] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:41:42,514] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:41:43 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:41:43 +0700] [52039] [INFO] Worker exiting (pid: 52039)
+[2020-11-12 17:42:12 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:42:12 +0700] [52929] [INFO] Booting worker with pid: 52929
+[2020-11-12 17:42:12,824] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:42:12,824] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:42:13 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:42:13 +0700] [52180] [INFO] Worker exiting (pid: 52180)
+[2020-11-12 17:42:42 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:42:42 +0700] [53115] [INFO] Booting worker with pid: 53115
+[2020-11-12 17:42:43,163] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:42:43,164] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:42:44 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:42:44 +0700] [52338] [INFO] Worker exiting (pid: 52338)
+[2020-11-12 17:43:13 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:43:13 +0700] [53225] [INFO] Booting worker with pid: 53225
+[2020-11-12 17:43:13,506] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:43:13,507] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:43:14 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:43:14 +0700] [52505] [INFO] Worker exiting (pid: 52505)
+[2020-11-12 17:43:43 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:43:43 +0700] [53391] [INFO] Booting worker with pid: 53391
+[2020-11-12 17:43:43,902] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:43:43,902] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:43:44 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:43:44 +0700] [52765] [INFO] Worker exiting (pid: 52765)
+[2020-11-12 17:44:14 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:44:14 +0700] [53541] [INFO] Booting worker with pid: 53541
+[2020-11-12 17:44:14,272] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:44:14,273] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:44:15 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:44:15 +0700] [52929] [INFO] Worker exiting (pid: 52929)
+[2020-11-12 17:44:44 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:44:44 +0700] [53729] [INFO] Booting worker with pid: 53729
+[2020-11-12 17:44:44,609] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:44:44,609] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:44:45 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:44:45 +0700] [53115] [INFO] Worker exiting (pid: 53115)
+[2020-11-12 17:45:14 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:45:14 +0700] [53878] [INFO] Booting worker with pid: 53878
+[2020-11-12 17:45:15,096] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:45:15,096] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:45:15 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:45:15 +0700] [53225] [INFO] Worker exiting (pid: 53225)
+[2020-11-12 17:45:45 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:45:45 +0700] [54027] [INFO] Booting worker with pid: 54027
+[2020-11-12 17:45:45,419] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:45:45,419] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:45:46 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:45:46 +0700] [53391] [INFO] Worker exiting (pid: 53391)
+[2020-11-12 17:46:15 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:46:15 +0700] [54167] [INFO] Booting worker with pid: 54167
+[2020-11-12 17:46:15,961] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:46:15,961] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:46:16 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:46:16 +0700] [53541] [INFO] Worker exiting (pid: 53541)
+[2020-11-12 17:46:45 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:46:45 +0700] [54326] [INFO] Booting worker with pid: 54326
+[2020-11-12 17:46:46,097] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:46:46,098] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:46:46 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:46:46 +0700] [53729] [INFO] Worker exiting (pid: 53729)
+[2020-11-12 17:47:16 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:47:16 +0700] [54508] [INFO] Booting worker with pid: 54508
+[2020-11-12 17:47:16,498] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:47:16,499] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:47:17 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:47:17 +0700] [53878] [INFO] Worker exiting (pid: 53878)
+[2020-11-12 17:47:46 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:47:46 +0700] [54715] [INFO] Booting worker with pid: 54715
+[2020-11-12 17:47:46,911] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:47:46,912] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:47:47 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:47:47 +0700] [54027] [INFO] Worker exiting (pid: 54027)
+[2020-11-12 17:48:17 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:48:17 +0700] [54891] [INFO] Booting worker with pid: 54891
+[2020-11-12 17:48:17,282] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:48:17,282] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:48:18 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:48:18 +0700] [54167] [INFO] Worker exiting (pid: 54167)
+[2020-11-12 17:48:47 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:48:47 +0700] [55047] [INFO] Booting worker with pid: 55047
+[2020-11-12 17:48:47,551] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:48:47,551] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:48:48 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:48:48 +0700] [54326] [INFO] Worker exiting (pid: 54326)
+[2020-11-12 17:49:17 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:49:17 +0700] [55182] [INFO] Booting worker with pid: 55182
+[2020-11-12 17:49:17,803] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:49:17,804] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:49:18 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:49:18 +0700] [54508] [INFO] Worker exiting (pid: 54508)
+[2020-11-12 17:49:47 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:49:47 +0700] [55332] [INFO] Booting worker with pid: 55332
+[2020-11-12 17:49:47,961] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:49:47,961] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:49:48 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:49:48 +0700] [54715] [INFO] Worker exiting (pid: 54715)
+[2020-11-12 17:50:17 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:50:17 +0700] [55513] [INFO] Booting worker with pid: 55513
+[2020-11-12 17:50:18,150] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:50:18,150] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:50:19 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:50:19 +0700] [54891] [INFO] Worker exiting (pid: 54891)
+[2020-11-12 17:50:48 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:50:48 +0700] [55665] [INFO] Booting worker with pid: 55665
+[2020-11-12 17:50:48,380] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:50:48,380] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:50:49 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:50:49 +0700] [55047] [INFO] Worker exiting (pid: 55047)
+[2020-11-12 17:51:18 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:51:18 +0700] [55798] [INFO] Booting worker with pid: 55798
+[2020-11-12 17:51:18,740] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:51:18,740] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:51:19 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:51:19 +0700] [55182] [INFO] Worker exiting (pid: 55182)
+[2020-11-12 17:51:48 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:51:48 +0700] [55941] [INFO] Booting worker with pid: 55941
+[2020-11-12 17:51:48,986] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:51:48,986] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:51:49 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:51:49 +0700] [55332] [INFO] Worker exiting (pid: 55332)
+[2020-11-12 17:52:18 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:52:18 +0700] [56090] [INFO] Booting worker with pid: 56090
+[2020-11-12 17:52:19,264] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:52:19,264] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:52:20 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:52:20 +0700] [55513] [INFO] Worker exiting (pid: 55513)
+[2020-11-12 17:52:49 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:52:49 +0700] [56251] [INFO] Booting worker with pid: 56251
+[2020-11-12 17:52:49,686] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:52:49,686] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:52:50 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:52:50 +0700] [55665] [INFO] Worker exiting (pid: 55665)
+[2020-11-12 17:53:19 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:53:19 +0700] [56400] [INFO] Booting worker with pid: 56400
+[2020-11-12 17:53:20,153] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:53:20,153] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:53:21 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:53:21 +0700] [55798] [INFO] Worker exiting (pid: 55798)
+[2020-11-12 17:53:50 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:53:50 +0700] [56544] [INFO] Booting worker with pid: 56544
+[2020-11-12 17:53:50,512] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:53:50,512] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:53:51 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:53:51 +0700] [55941] [INFO] Worker exiting (pid: 55941)
+[2020-11-12 17:54:20 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:54:20 +0700] [56725] [INFO] Booting worker with pid: 56725
+[2020-11-12 17:54:20,863] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:54:20,864] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:54:21 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:54:21 +0700] [56090] [INFO] Worker exiting (pid: 56090)
+[2020-11-12 17:54:51 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:54:51 +0700] [56874] [INFO] Booting worker with pid: 56874
+[2020-11-12 17:54:51,314] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:54:51,315] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:54:52 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:54:52 +0700] [56251] [INFO] Worker exiting (pid: 56251)
+[2020-11-12 17:55:21 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:55:21 +0700] [57012] [INFO] Booting worker with pid: 57012
+[2020-11-12 17:55:21,552] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:55:21,552] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:55:22 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:55:22 +0700] [56400] [INFO] Worker exiting (pid: 56400)
+[2020-11-12 17:55:51 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:55:51 +0700] [57158] [INFO] Booting worker with pid: 57158
+[2020-11-12 17:55:51,725] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:55:51,725] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:55:52 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:55:52 +0700] [56544] [INFO] Worker exiting (pid: 56544)
+[2020-11-12 17:56:22 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:56:22 +0700] [57351] [INFO] Booting worker with pid: 57351
+[2020-11-12 17:56:22,830] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:56:22,830] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:56:23 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:56:23 +0700] [56725] [INFO] Worker exiting (pid: 56725)
+[2020-11-12 17:56:52 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:56:52 +0700] [57492] [INFO] Booting worker with pid: 57492
+[2020-11-12 17:56:53,016] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:56:53,016] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:56:53 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:56:53 +0700] [56874] [INFO] Worker exiting (pid: 56874)
+[2020-11-12 17:57:23 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:57:23 +0700] [57667] [INFO] Booting worker with pid: 57667
+[2020-11-12 17:57:23,451] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:57:23,451] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:57:24 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:57:24 +0700] [57012] [INFO] Worker exiting (pid: 57012)
+[2020-11-12 17:57:54 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:57:54 +0700] [57788] [INFO] Booting worker with pid: 57788
+[2020-11-12 17:57:54,626] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:57:54,627] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:57:55 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:57:55 +0700] [57158] [INFO] Worker exiting (pid: 57158)
+[2020-11-12 17:58:24 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:58:24 +0700] [57978] [INFO] Booting worker with pid: 57978
+[2020-11-12 17:58:24,815] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:58:24,815] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:58:25 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:58:25 +0700] [57351] [INFO] Worker exiting (pid: 57351)
+[2020-11-12 17:58:54 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:58:54 +0700] [58093] [INFO] Booting worker with pid: 58093
+[2020-11-12 17:58:54,974] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:58:54,975] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:58:55 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:58:55 +0700] [57492] [INFO] Worker exiting (pid: 57492)
+[2020-11-12 17:59:25 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:59:25 +0700] [58277] [INFO] Booting worker with pid: 58277
+[2020-11-12 17:59:26,041] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:59:26,042] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:59:26 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:59:26 +0700] [57667] [INFO] Worker exiting (pid: 57667)
+[2020-11-12 17:59:55 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 17:59:55 +0700] [58396] [INFO] Booting worker with pid: 58396
+[2020-11-12 17:59:56,166] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 17:59:56,166] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 17:59:57 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 17:59:57 +0700] [57788] [INFO] Worker exiting (pid: 57788)
+[2020-11-12 18:00:26 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:00:26 +0700] [58595] [INFO] Booting worker with pid: 58595
+[2020-11-12 18:00:26,339] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:00:26,339] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:00:27 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:00:27 +0700] [57978] [INFO] Worker exiting (pid: 57978)
+[2020-11-12 18:00:56 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:00:56 +0700] [58709] [INFO] Booting worker with pid: 58709
+[2020-11-12 18:00:56,762] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:00:56,762] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:00:57 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:00:57 +0700] [58093] [INFO] Worker exiting (pid: 58093)
+[2020-11-12 18:01:26 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:01:26 +0700] [58858] [INFO] Booting worker with pid: 58858
+[2020-11-12 18:01:26,950] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:01:26,950] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:01:27 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:01:27 +0700] [58277] [INFO] Worker exiting (pid: 58277)
+[2020-11-12 18:01:56 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:01:56 +0700] [58998] [INFO] Booting worker with pid: 58998
+[2020-11-12 18:01:57,212] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:01:57,213] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:01:58 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:01:58 +0700] [58396] [INFO] Worker exiting (pid: 58396)
+[2020-11-12 18:02:27 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:02:27 +0700] [59200] [INFO] Booting worker with pid: 59200
+[2020-11-12 18:02:27,361] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:02:27,361] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:02:28 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:02:28 +0700] [58595] [INFO] Worker exiting (pid: 58595)
+[2020-11-12 18:02:57 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:02:57 +0700] [59311] [INFO] Booting worker with pid: 59311
+[2020-11-12 18:02:57,525] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:02:57,526] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:02:58 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:02:58 +0700] [58709] [INFO] Worker exiting (pid: 58709)
+[2020-11-12 18:03:27 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:03:27 +0700] [59466] [INFO] Booting worker with pid: 59466
+[2020-11-12 18:03:27,868] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:03:27,868] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:03:28 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:03:28 +0700] [58858] [INFO] Worker exiting (pid: 58858)
+[2020-11-12 18:03:58 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:03:58 +0700] [59576] [INFO] Booting worker with pid: 59576
+[2020-11-12 18:03:58,357] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:03:58,358] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:03:59 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:03:59 +0700] [58998] [INFO] Worker exiting (pid: 58998)
+[2020-11-12 18:04:28 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:04:28 +0700] [59804] [INFO] Booting worker with pid: 59804
+[2020-11-12 18:04:28,831] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:04:28,831] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:04:29 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:04:29 +0700] [59200] [INFO] Worker exiting (pid: 59200)
+127.0.0.1 - - [12/Nov/2020:18:04:33 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:04:34 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:04:34 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:04:34 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:04:34 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-12 18:04:58 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:04:58 +0700] [59973] [INFO] Booting worker with pid: 59973
+[2020-11-12 18:04:58,998] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:04:58,998] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:04:59 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:04:59 +0700] [59311] [INFO] Worker exiting (pid: 59311)
+[2020-11-12 18:05:29 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:05:29 +0700] [60130] [INFO] Booting worker with pid: 60130
+[2020-11-12 18:05:29,355] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:05:29,355] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:05:30 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:05:30 +0700] [59466] [INFO] Worker exiting (pid: 59466)
+[2020-11-12 18:05:59 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:05:59 +0700] [60256] [INFO] Booting worker with pid: 60256
+[2020-11-12 18:05:59,840] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:05:59,840] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:06:00 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:06:00 +0700] [59576] [INFO] Worker exiting (pid: 59576)
+[2020-11-12 18:06:30 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:06:30 +0700] [60468] [INFO] Booting worker with pid: 60468
+[2020-11-12 18:06:30,559] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:06:30,560] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:06:31 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:06:31 +0700] [59804] [INFO] Worker exiting (pid: 59804)
+[2020-11-12 18:07:00 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:07:00 +0700] [60588] [INFO] Booting worker with pid: 60588
+[2020-11-12 18:07:00,581] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:07:00,582] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:07:01 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:07:01 +0700] [59973] [INFO] Worker exiting (pid: 59973)
+[2020-11-12 18:07:30 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:07:30 +0700] [60791] [INFO] Booting worker with pid: 60791
+[2020-11-12 18:07:30,883] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:07:30,884] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:07:31 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:07:31 +0700] [60130] [INFO] Worker exiting (pid: 60130)
+[2020-11-12 18:08:00 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:08:00 +0700] [60905] [INFO] Booting worker with pid: 60905
+[2020-11-12 18:08:01,746] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:08:01,746] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:08:02 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:08:02 +0700] [60256] [INFO] Worker exiting (pid: 60256)
+[2020-11-12 18:08:31 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:08:31 +0700] [61106] [INFO] Booting worker with pid: 61106
+[2020-11-12 18:08:31,722] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:08:31,722] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:08:32 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:08:32 +0700] [60468] [INFO] Worker exiting (pid: 60468)
+[2020-11-12 18:09:01 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:09:01 +0700] [61212] [INFO] Booting worker with pid: 61212
+[2020-11-12 18:09:01,941] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:09:01,941] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:09:02 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:09:02 +0700] [60588] [INFO] Worker exiting (pid: 60588)
+[2020-11-12 18:09:32 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:09:32 +0700] [61395] [INFO] Booting worker with pid: 61395
+[2020-11-12 18:09:32,321] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:09:32,322] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:09:33 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:09:33 +0700] [60791] [INFO] Worker exiting (pid: 60791)
+[2020-11-12 18:10:03 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:10:03 +0700] [61595] [INFO] Booting worker with pid: 61595
+[2020-11-12 18:10:03,373] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:10:03,373] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:10:04 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:10:04 +0700] [60905] [INFO] Worker exiting (pid: 60905)
+[2020-11-12 18:10:33 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:10:33 +0700] [61783] [INFO] Booting worker with pid: 61783
+[2020-11-12 18:10:33,570] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:10:33,571] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:10:34 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:10:34 +0700] [61106] [INFO] Worker exiting (pid: 61106)
+[2020-11-12 18:11:03 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:11:03 +0700] [61900] [INFO] Booting worker with pid: 61900
+[2020-11-12 18:11:03,861] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:11:03,861] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:11:04 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:11:04 +0700] [61212] [INFO] Worker exiting (pid: 61212)
+127.0.0.1 - - [12/Nov/2020:18:11:27 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:11:27 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:11:27 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:11:27 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [12/Nov/2020:18:11:27 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-12 18:11:30,215] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+127.0.0.1 - - [12/Nov/2020:18:11:30 +0700] "POST /admin/airflow/paused?is_paused=false&dag_id=aggregate_action_user HTTP/1.1" 200 2 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-12 18:11:33 +0700] [33018] [INFO] Handling signal: ttin
+[2020-11-12 18:11:33 +0700] [62161] [INFO] Booting worker with pid: 62161
+[2020-11-12 18:11:34,217] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-12 18:11:34,217] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-12 18:11:35 +0700] [33018] [INFO] Handling signal: ttou
+[2020-11-12 18:11:35 +0700] [61395] [INFO] Worker exiting (pid: 61395)
+[2020-11-12 18:11:52 +0700] [33018] [INFO] Handling signal: term
+[2020-11-12 18:11:52 +0700] [61595] [INFO] Worker exiting (pid: 61595)
+[2020-11-12 18:11:52 +0700] [61783] [INFO] Worker exiting (pid: 61783)
+[2020-11-12 18:11:52,551] {cli.py:1127} INFO - Received signal: 15. Closing gunicorn.
+[2020-11-12 18:11:52 +0700] [61900] [INFO] Worker exiting (pid: 61900)
+[2020-11-12 18:11:52 +0700] [62161] [INFO] Worker exiting (pid: 62161)
+[2020-11-12 18:11:52 +0700] [33018] [INFO] Shutting down: Master
