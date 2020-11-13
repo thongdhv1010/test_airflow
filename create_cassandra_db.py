@@ -25,11 +25,10 @@ session = cluster.connect(os.getenv('CASSANDRA_KEYSPACE'))
 
 session.execute("""
     CREATE TABLE IF NOT EXISTS aggregate_action(
-    id uuid,
     user_id int,
     number_comment int,
     number_like int,
-    start_time timestamp,
-    PRIMARY KEY (user_id, start_time)
-   );
+    start_time int,
+    create_time timestamp,
+    PRIMARY KEY (user_id, start_time));
    """)

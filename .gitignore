@@ -1,0 +1,5 @@
+/.local/
+/logs/
+*.err
+*.log
+*.out

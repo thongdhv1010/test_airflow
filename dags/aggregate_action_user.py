@@ -36,7 +36,7 @@ dag = DAG(
 )
 
 run_this_bash_first = BashOperator(task_id='get_user_action',
-                                   bash_command='python3 /home/nvt/PycharmProjects/test_airflow/scripts/user_action.py',
+                                   bash_command='python3 ${AIRFLOW_HOME}/scripts/user_action.py',
                                    dag=dag)
 
 

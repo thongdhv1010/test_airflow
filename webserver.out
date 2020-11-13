@@ -11450,3 +11450,587 @@ Logfiles: - -
 [2020-11-12 18:11:52 +0700] [61900] [INFO] Worker exiting (pid: 61900)
 [2020-11-12 18:11:52 +0700] [62161] [INFO] Worker exiting (pid: 62161)
 [2020-11-12 18:11:52 +0700] [33018] [INFO] Shutting down: Master
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 09:41:30,748] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:41:30,748] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2020-11-13 09:41:31 +0700] [29158] [INFO] Starting gunicorn 20.0.4
+[2020-11-13 09:41:31 +0700] [29158] [INFO] Listening at: http://0.0.0.0:8080 (29158)
+[2020-11-13 09:41:31 +0700] [29158] [INFO] Using worker: sync
+[2020-11-13 09:41:31 +0700] [29182] [INFO] Booting worker with pid: 29182
+[2020-11-13 09:41:31 +0700] [29184] [INFO] Booting worker with pid: 29184
+[2020-11-13 09:41:31 +0700] [29193] [INFO] Booting worker with pid: 29193
+[2020-11-13 09:41:31 +0700] [29203] [INFO] Booting worker with pid: 29203
+[2020-11-13 09:41:31,980] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:41:31,982] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+[2020-11-13 09:41:32,068] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:41:32,068] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+[2020-11-13 09:41:32,141] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:41:32,142] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:41:32,153] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:41:32,153] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET / HTTP/1.1" 302 221 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/ HTTP/1.1" 200 154328 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/bootstrap-theme.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/main.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/dataTables.bootstrap.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/loading.gif HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/bootstrap-toggle.min.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/pin_100.png HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/vendor/jquery.min.js?v=3.3.1 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /admin/admin/admin/js/helpers.js?v=1.0.0 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/jqClock.min.js HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/jquery.dataTables.min.js HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/d3.v3.min.js HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/bootstrap-toggle.min.js HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:38 +0700] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:39 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:39 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:39 +0700] "GET /admin/admin/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/admin/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:39 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:41:42,270] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py
+127.0.0.1 - - [13/Nov/2020:09:41:42 +0700] "POST /admin/airflow/paused?is_paused=true&dag_id=aggregate_action_user HTTP/1.1" 200 2 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:58 +0700] "GET /admin/ HTTP/1.1" 200 154335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:59 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:59 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 221 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:59 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:41:59 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:42:01 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:42:01 +0700] [29482] [INFO] Booting worker with pid: 29482
+[2020-11-13 09:42:01,824] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:42:01,825] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:42:02 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:42:02 +0700] [29182] [INFO] Worker exiting (pid: 29182)
+[2020-11-13 09:42:31 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:42:31 +0700] [29653] [INFO] Booting worker with pid: 29653
+[2020-11-13 09:42:32,101] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:42:32,101] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:42:33 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:42:33 +0700] [29184] [INFO] Worker exiting (pid: 29184)
+[2020-11-13 09:43:02 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:43:02 +0700] [29803] [INFO] Booting worker with pid: 29803
+[2020-11-13 09:43:03,148] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:43:03,148] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:43:04 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:43:04 +0700] [29193] [INFO] Worker exiting (pid: 29193)
+[2020-11-13 09:43:33 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:43:33 +0700] [29909] [INFO] Booting worker with pid: 29909
+[2020-11-13 09:43:33,460] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:43:33,460] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:43:34 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:43:34 +0700] [29203] [INFO] Worker exiting (pid: 29203)
+127.0.0.1 - - [13/Nov/2020:09:43:59 +0700] "GET /admin/ HTTP/1.1" 200 154335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:43:59 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:43:59 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:43:59 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:43:59 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:44:03 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:44:03 +0700] [30066] [INFO] Booting worker with pid: 30066
+[2020-11-13 09:44:03,782] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:44:03,782] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:44:04 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:44:04 +0700] [29482] [INFO] Worker exiting (pid: 29482)
+[2020-11-13 09:44:34 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:44:34 +0700] [30280] [INFO] Booting worker with pid: 30280
+[2020-11-13 09:44:34,849] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:44:34,849] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:44:35 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:44:35 +0700] [29653] [INFO] Worker exiting (pid: 29653)
+[2020-11-13 09:45:05 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:45:05 +0700] [30426] [INFO] Booting worker with pid: 30426
+[2020-11-13 09:45:05,779] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:45:05,779] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:45:06 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:45:06 +0700] [29803] [INFO] Worker exiting (pid: 29803)
+[2020-11-13 09:45:35 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:45:35 +0700] [30551] [INFO] Booting worker with pid: 30551
+[2020-11-13 09:45:35,934] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:45:35,935] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:45:36 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:45:36 +0700] [29909] [INFO] Worker exiting (pid: 29909)
+[2020-11-13 09:46:05 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:46:05 +0700] [30820] [INFO] Booting worker with pid: 30820
+[2020-11-13 09:46:06,168] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:46:06,168] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:46:07 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:46:07 +0700] [30066] [INFO] Worker exiting (pid: 30066)
+[2020-11-13 09:46:36 +0700] [29158] [INFO] Handling signal: ttin
+[2020-11-13 09:46:36 +0700] [30984] [INFO] Booting worker with pid: 30984
+[2020-11-13 09:46:36,331] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:46:36,331] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:46:37 +0700] [29158] [INFO] Handling signal: ttou
+[2020-11-13 09:46:37 +0700] [30280] [INFO] Worker exiting (pid: 30280)
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 09:47:25,030] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:47:25,030] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2020-11-13 09:47:25 +0700] [31487] [INFO] Starting gunicorn 20.0.4
+[2020-11-13 09:47:25 +0700] [31487] [INFO] Listening at: http://0.0.0.0:8080 (31487)
+[2020-11-13 09:47:25 +0700] [31487] [INFO] Using worker: sync
+[2020-11-13 09:47:25 +0700] [31505] [INFO] Booting worker with pid: 31505
+[2020-11-13 09:47:25 +0700] [31514] [INFO] Booting worker with pid: 31514
+[2020-11-13 09:47:25 +0700] [31515] [INFO] Booting worker with pid: 31515
+[2020-11-13 09:47:25 +0700] [31516] [INFO] Booting worker with pid: 31516
+[2020-11-13 09:47:25,910] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:47:25,910] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+[[2020-11-13 09:47:26,142] {2020-11-13 09:47:26,142__init__.py:] {50} INFO__init__.py: - Using executor 50} INFOCeleryExecutor - Using executor 
+CeleryExecutor
+[2020-11-13 09:47:26,142[] {2020-11-13 09:47:26,142dagbag.py:] {417} INFOdagbag.py: - Filling up the DagBag from 417} INFO/home/nvt/PycharmProjects/test_airflow/dags - Filling up the DagBag from 
+/home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:47:26,196] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:47:26,196] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+127.0.0.1 - - [13/Nov/2020:09:47:40 +0700] "GET /admin/ HTTP/1.1" 200 154335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:40 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:40 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:40 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:40 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /admin/airflow/tree?dag_id=aggregate_action_user HTTP/1.1" 200 11542 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /admin/admin/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/tree?dag_id=aggregate_action_user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /admin/admin/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/tree?dag_id=aggregate_action_user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /admin/admin/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/tree?dag_id=aggregate_action_user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /static/tree.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/tree?dag_id=aggregate_action_user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /admin/admin/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/tree?dag_id=aggregate_action_user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /admin/admin/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/tree?dag_id=aggregate_action_user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:45 +0700] "GET /admin/admin/admin/js/form.js?v=1.0.1 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/tree?dag_id=aggregate_action_user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:48 +0700] "GET /admin/ HTTP/1.1" 200 154335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:55 +0700] "GET /admin/ HTTP/1.1" 200 154335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:47:55 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:47:55 +0700] [31670] [INFO] Booting worker with pid: 31670
+127.0.0.1 - - [13/Nov/2020:09:47:55 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:55 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:47:55 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:47:55,874] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:47:55,874] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+127.0.0.1 - - [13/Nov/2020:09:47:55 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:47:56 +0700] [31487] [INFO] Handling signal: ttou
+[2020-11-13 09:47:56 +0700] [31505] [INFO] Worker exiting (pid: 31505)
+127.0.0.1 - - [13/Nov/2020:09:48:00 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success HTTP/1.1" 200 229208 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:48:00 +0700] "GET /admin/admin/admin/js/filters.js?v=1.0.0 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:48:00 +0700] "GET /admin/admin/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:48:01 +0700] "GET /admin/admin/vendor/select2/select2.png HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/admin/vendor/select2/select2.css?v=3.5.2" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:48:03 +0700] "GET /admin/ HTTP/1.1" 200 154335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:48:26 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:48:26 +0700] [31883] [INFO] Booting worker with pid: 31883
+[2020-11-13 09:48:26,874] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:48:26,874] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:48:27 +0700] [31487] [INFO] Handling signal: ttou
+[2020-11-13 09:48:27 +0700] [31514] [INFO] Worker exiting (pid: 31514)
+[2020-11-13 09:48:56 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:48:56 +0700] [32022] [INFO] Booting worker with pid: 32022
+[2020-11-13 09:48:57,233] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:48:57,233] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:48:58 +0700] [31487] [INFO] Handling signal: ttou
+[2020-11-13 09:49:03 +0700] [31515] [INFO] Worker exiting (pid: 31515)
+[2020-11-13 09:49:27 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:49:27 +0700] [32282] [INFO] Booting worker with pid: 32282
+[2020-11-13 09:49:27,724] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:49:27,724] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:49:28 +0700] [31487] [INFO] Handling signal: ttou
+[2020-11-13 09:49:28 +0700] [31516] [INFO] Worker exiting (pid: 31516)
+[2020-11-13 09:49:58 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:49:58 +0700] [32409] [INFO] Booting worker with pid: 32409
+[2020-11-13 09:49:58,746] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:49:58,746] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:49:59 +0700] [31487] [INFO] Handling signal: ttou
+[2020-11-13 09:49:59 +0700] [31670] [INFO] Worker exiting (pid: 31670)
+[2020-11-13 09:50:29 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:50:29 +0700] [32588] [INFO] Booting worker with pid: 32588
+[2020-11-13 09:50:29,858] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:50:29,858] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 09:50:30 +0700] [31487] [INFO] Handling signal: ttou
+[2020-11-13 09:50:30 +0700] [31883] [INFO] Worker exiting (pid: 31883)
+127.0.0.1 - - [13/Nov/2020:09:50:51 +0700] "GET /admin/ HTTP/1.1" 200 154335 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:52 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:52 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 221 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:52 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:52 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:55 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running HTTP/1.1" 200 25437 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:57 +0700] "GET /admin/airflow/graph?dag_id=aggregate_action_user&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00 HTTP/1.1" 200 9413 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:57 +0700] "GET /static/dagre.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/graph?dag_id=aggregate_action_user&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:57 +0700] "GET /static/graph.css HTTP/1.1" 304 0 "http://0.0.0.0:8080/admin/airflow/graph?dag_id=aggregate_action_user&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:50:57 +0700] "GET /static/dagre-d3.js HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/airflow/graph?dag_id=aggregate_action_user&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:51:00 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running HTTP/1.1" 200 25437 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:51:00 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:51:00 +0700] [32719] [INFO] Booting worker with pid: 32719
+[2020-11-13 09:51:00,985] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:51:00,985] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+127.0.0.1 - - [13/Nov/2020:09:51:01 +0700] "GET /admin/airflow/graph?dag_id=aggregate_action_user&run_id=scheduled__2020-11-13T02%3A48%3A00%2B00%3A00&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00 HTTP/1.1" 200 9412 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:51:01 +0700] [31487] [INFO] Handling signal: ttou
+[2020-11-13 09:51:01 +0700] [32022] [INFO] Worker exiting (pid: 32022)
+127.0.0.1 - - [13/Nov/2020:09:51:05 +0700] "GET /admin/airflow/get_logs_with_metadata?dag_id=aggregate_action_user&task_id=get_user_action&execution_date=2020-11-13T02%3A48%3A00%2B00%3A00&metadata=null&format=file&try_number=1 HTTP/1.1" 200 3145 "http://0.0.0.0:8080/admin/airflow/graph?dag_id=aggregate_action_user&run_id=scheduled__2020-11-13T02%3A48%3A00%2B00%3A00&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:51:15 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/airflow/graph?dag_id=aggregate_action_user&run_id=scheduled__2020-11-13T02%3A48%3A00%2B00%3A00&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:51:15 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:51:15 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 221 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:51:15 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 09:51:31 +0700] [31487] [INFO] Handling signal: ttin
+[2020-11-13 09:51:31 +0700] [32958] [INFO] Booting worker with pid: 32958
+[2020-11-13 09:51:31,307] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:51:31,308] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 09:59:54,331] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:59:54,331] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2020-11-13 09:59:54 +0700] [34626] [INFO] Starting gunicorn 20.0.4
+[2020-11-13 09:59:54 +0700] [34626] [INFO] Listening at: http://0.0.0.0:8080 (34626)
+[2020-11-13 09:59:54 +0700] [34626] [INFO] Using worker: sync
+[2020-11-13 09:59:54 +0700] [34645] [INFO] Booting worker with pid: 34645
+[2020-11-13 09:59:55 +0700] [34648] [INFO] Booting worker with pid: 34648
+[2020-11-13 09:59:55 +0700] [34655] [INFO] Booting worker with pid: 34655
+[2020-11-13 09:59:55 +0700] [34661] [INFO] Booting worker with pid: 34661
+[2020-11-13 09:59:55,315] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:59:55,315] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:59:55,354] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:59:55,354] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:59:55,398] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:59:55,398] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+[2020-11-13 09:59:55,511] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:59:55,512] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+127.0.0.1 - - [13/Nov/2020:09:59:58 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/airflow/graph?dag_id=aggregate_action_user&run_id=scheduled__2020-11-13T02%3A48%3A00%2B00%3A00&execution_date=2020-11-13+02%3A48%3A00%2B00%3A00" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:59:58 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:59:58 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 221 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:59:58 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:09:59:58 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:00:05 +0700] "POST /admin/airflow/refresh?dag_id=aggregate_action_user HTTP/1.1" 302 259 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:00:05 +0700] "GET /admin/ HTTP/1.1" 200 154627 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:00:05 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:00:05 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 221 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:00:05 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:00:07 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running HTTP/1.1" 200 27507 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:00:15 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 10:00:24 +0700] [34626] [INFO] Handling signal: ttin
+[2020-11-13 10:00:24 +0700] [34998] [INFO] Booting worker with pid: 34998
+[2020-11-13 10:00:25,236] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:00:25,237] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:00:26 +0700] [34626] [INFO] Handling signal: ttou
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 10:01:19,846] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:01:19,846] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2020-11-13 10:01:20 +0700] [35330] [INFO] Starting gunicorn 20.0.4
+[2020-11-13 10:01:20 +0700] [35330] [INFO] Listening at: http://0.0.0.0:8080 (35330)
+[2020-11-13 10:01:20 +0700] [35330] [INFO] Using worker: sync
+[2020-11-13 10:01:20 +0700] [35348] [INFO] Booting worker with pid: 35348
+[2020-11-13 10:01:20 +0700] [35350] [INFO] Booting worker with pid: 35350
+[2020-11-13 10:01:20 +0700] [35357] [INFO] Booting worker with pid: 35357
+[2020-11-13 10:01:20 +0700] [35360] [INFO] Booting worker with pid: 35360
+[2020-11-13 10:01:20,852] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:01:20,852] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+[2020-11-13 10:01:20,982] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:01:20,983] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 10:01:21,014] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:01:21,014] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:01:21,094] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:01:21,095] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+127.0.0.1 - - [13/Nov/2020:10:01:21 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:21 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:21 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:21 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:21 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:25 +0700] "POST /admin/airflow/refresh?dag_id=aggregate_action_user HTTP/1.1" 302 259 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:26 +0700] "GET /admin/ HTTP/1.1" 200 154627 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:26 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:26 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:26 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:40 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success HTTP/1.1" 200 229208 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:48 +0700] "GET /admin/airflow/graph?dag_id=aggregate_action_user&execution_date=2020-11-13+02%3A58%3A00%2B00%3A00 HTTP/1.1" 200 9408 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 10:01:50 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:01:50 +0700] [35514] [INFO] Booting worker with pid: 35514
+127.0.0.1 - - [13/Nov/2020:10:01:50 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success HTTP/1.1" 200 229208 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 10:01:50,755] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:01:50,756] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:01:51 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:01:51 +0700] [35348] [INFO] Worker exiting (pid: 35348)
+127.0.0.1 - - [13/Nov/2020:10:01:52 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:53 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:53 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:53 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:56 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=failed HTTP/1.1" 200 44011 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:01:58 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:17 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:18 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:18 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 221 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:18 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:18 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:20 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=running HTTP/1.1" 200 21530 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 10:02:20 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:02:20 +0700] [35739] [INFO] Booting worker with pid: 35739
+[2020-11-13 10:02:21,046] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:02:21,047] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:02:21 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:02:21 +0700] [35350] [INFO] Worker exiting (pid: 35350)
+127.0.0.1 - - [13/Nov/2020:10:02:22 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:25 +0700] "GET /admin/ HTTP/1.1" 200 154335 "http://0.0.0.0:8080/admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:25 +0700] "GET /admin/airflow/dag_stats HTTP/1.1" 200 6931 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:25 +0700] "GET /admin/airflow/blocked HTTP/1.1" 200 106 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:25 +0700] "GET /admin/airflow/task_stats?dag_ids=aggregate_action_user,example_bash_operator,example_branch_dop_operator_v3,example_branch_operator,example_complex,example_external_task_marker_child,example_external_task_marker_parent,example_http_operator,example_kubernetes_executor_config,example_nested_branch_dag,example_passing_params_via_test_command,example_pig_operator,example_python_operator,example_short_circuit_operator,example_skip_dag,example_subdag_operator,example_trigger_controller_dag,example_trigger_target_dag,example_xcom,latest_only,latest_only_with_trigger,sleep_task,test_utils,tutorial HTTP/1.1" 200 19601 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:25 +0700] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+127.0.0.1 - - [13/Nov/2020:10:02:26 +0700] "GET /admin/dagrun/?flt1_dag_id_equals=aggregate_action_user&flt2_state_equals=success HTTP/1.1" 200 229208 "http://0.0.0.0:8080/admin/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+[2020-11-13 10:02:51 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:02:51 +0700] [35880] [INFO] Booting worker with pid: 35880
+[2020-11-13 10:02:51,423] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:02:51,424] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:02:52 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:02:52 +0700] [35357] [INFO] Worker exiting (pid: 35357)
+[2020-11-13 10:03:21 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:03:21 +0700] [36144] [INFO] Booting worker with pid: 36144
+[2020-11-13 10:03:22,189] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:03:22,190] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:03:24 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:03:24 +0700] [35360] [INFO] Worker exiting (pid: 35360)
+[2020-11-13 10:03:51 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:03:51 +0700] [36254] [INFO] Booting worker with pid: 36254
+[2020-11-13 10:03:52,108] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:03:52,109] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:03:53 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:03:53 +0700] [35514] [INFO] Worker exiting (pid: 35514)
+[2020-11-13 10:04:22 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:04:22 +0700] [36507] [INFO] Booting worker with pid: 36507
+[2020-11-13 10:04:22,670] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:04:22,670] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:04:23 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:04:23 +0700] [35739] [INFO] Worker exiting (pid: 35739)
+[2020-11-13 10:04:52 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:04:52 +0700] [36666] [INFO] Booting worker with pid: 36666
+[2020-11-13 10:04:53,193] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:04:53,193] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:04:54 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:04:54 +0700] [35880] [INFO] Worker exiting (pid: 35880)
+[2020-11-13 10:05:23 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:05:23 +0700] [36820] [INFO] Booting worker with pid: 36820
+[2020-11-13 10:05:23,601] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:05:23,601] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:05:24 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:05:24 +0700] [36144] [INFO] Worker exiting (pid: 36144)
+[2020-11-13 10:05:53 +0700] [35330] [INFO] Handling signal: ttin
+[2020-11-13 10:05:53 +0700] [36945] [INFO] Booting worker with pid: 36945
+[2020-11-13 10:05:54,013] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:05:54,014] {dagbag.py:417} INFO - Filling up the DagBag from /home/nvt/PycharmProjects/test_airflow/dags
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/models/dag.py:1337: PendingDeprecationWarning: The requested task could not be added to the DAG because a task with task_id create_tag_template_field_result is already in the DAG. Starting in Airflow 2.0, trying to overwrite a task will raise an exception.
+  warnings.warn(
+/home/nvt/.local/share/virtualenvs/test_airflow-kPS7EYZo/lib/python3.8/site-packages/airflow/www/gunicorn_config.py:27: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+  settings.GUNICORN_WORKER_READY_PREFIX + setproctitle.getproctitle()
+[2020-11-13 10:05:54 +0700] [35330] [INFO] Handling signal: ttou
+[2020-11-13 10:05:54 +0700] [36254] [INFO] Worker exiting (pid: 36254)

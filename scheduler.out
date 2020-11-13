@@ -14322,3 +14322,194 @@ Traceback (most recent call last):
     super(Connection, self).__init__(*args, **kwargs2)
 sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2006, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)")
 (Background on this error at: http://sqlalche.me/e/13/e3q8)
+WARNING:root:/home/nvt/PycharmProjects/test_airflow/logs/scheduler/2020-11-13 already exists
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 09:41:30,699] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:41:30,721] {scheduler_job.py:1367} INFO - Starting the scheduler
+[2020-11-13 09:41:30,721] {scheduler_job.py:1375} INFO - Running execute loop for -1 seconds
+[2020-11-13 09:41:30,721] {scheduler_job.py:1376} INFO - Processing each file at most -1 times
+[2020-11-13 09:41:30,721] {scheduler_job.py:1379} INFO - Searching for files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:41:30,757] {scheduler_job.py:1381} INFO - There are 27 files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:41:30,757] {scheduler_job.py:1438} INFO - Resetting orphaned tasks for active dag runs
+[2020-11-13 09:41:30,768] {dag_processing.py:562} INFO - Launched DagFileProcessorManager with pid: 29145
+[2020-11-13 09:41:30,771] {settings.py:55} INFO - Configured default timezone <Timezone [UTC]>
+[2020-11-13 09:41:54,802] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:38:00+00:00 [scheduled]>
+[2020-11-13 09:41:54,806] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 09:41:54,807] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 09:41:54,809] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:38:00+00:00 [scheduled]>
+[2020-11-13 09:41:54,816] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:38:00+00:00 [queued]>
+[2020-11-13 09:41:54,817] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 38, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 09:41:54,817] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:38:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 09:42:06,812] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:40:00+00:00 [scheduled]>
+[2020-11-13 09:42:06,816] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 09:42:06,816] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 09:42:06,819] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:40:00+00:00 [scheduled]>
+[2020-11-13 09:42:06,827] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:40:00+00:00 [queued]>
+[2020-11-13 09:42:06,827] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 40, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 09:42:06,827] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:40:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 09:42:06,874] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:38:00+00:00 exited with status success for try_number 1
+[2020-11-13 09:42:20,841] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:40:00+00:00 exited with status success for try_number 1
+[2020-11-13 09:44:04,942] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:42:00+00:00 [scheduled]>
+[2020-11-13 09:44:04,952] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 09:44:04,952] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 09:44:04,961] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:42:00+00:00 [scheduled]>
+[2020-11-13 09:44:04,974] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:42:00+00:00 [queued]>
+[2020-11-13 09:44:04,974] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 42, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 09:44:04,975] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:42:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 09:44:18,957] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:42:00+00:00 exited with status success for try_number 1
+[2020-11-13 09:46:03,037] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:44:00+00:00 [scheduled]>
+[2020-11-13 09:46:03,041] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 09:46:03,041] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 09:46:03,045] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:44:00+00:00 [scheduled]>
+[2020-11-13 09:46:03,053] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:44:00+00:00 [queued]>
+[2020-11-13 09:46:03,054] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 44, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 09:46:03,054] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:44:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 09:46:17,066] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:44:00+00:00 exited with status success for try_number 1
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 09:47:24,978] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:47:24,987] {scheduler_job.py:1367} INFO - Starting the scheduler
+[2020-11-13 09:47:24,987] {scheduler_job.py:1375} INFO - Running execute loop for -1 seconds
+[2020-11-13 09:47:24,987] {scheduler_job.py:1376} INFO - Processing each file at most -1 times
+[2020-11-13 09:47:24,987] {scheduler_job.py:1379} INFO - Searching for files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:47:24,989] {scheduler_job.py:1381} INFO - There are 27 files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:47:24,990] {scheduler_job.py:1438} INFO - Resetting orphaned tasks for active dag runs
+[2020-11-13 09:47:24,995] {dag_processing.py:562} INFO - Launched DagFileProcessorManager with pid: 31480
+[2020-11-13 09:47:24,998] {settings.py:55} INFO - Configured default timezone <Timezone [UTC]>
+[2020-11-13 09:48:03,057] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:46:00+00:00 [scheduled]>
+[2020-11-13 09:48:03,071] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 09:48:03,072] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 09:48:03,082] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:46:00+00:00 [scheduled]>
+[2020-11-13 09:48:03,100] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:46:00+00:00 [queued]>
+[2020-11-13 09:48:03,101] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 46, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 09:48:03,101] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:46:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 09:48:15,066] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:46:00+00:00 exited with status success for try_number 1
+[2020-11-13 09:50:13,175] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:48:00+00:00 [scheduled]>
+[2020-11-13 09:50:13,184] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 09:50:13,185] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 09:50:13,193] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:48:00+00:00 [scheduled]>
+[2020-11-13 09:50:13,209] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:48:00+00:00 [queued]>
+[2020-11-13 09:50:13,210] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 48, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 09:50:13,210] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:48:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 09:50:27,176] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:48:00+00:00 exited with status success for try_number 1
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 09:59:54,275] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 09:59:54,282] {scheduler_job.py:1367} INFO - Starting the scheduler
+[2020-11-13 09:59:54,282] {scheduler_job.py:1375} INFO - Running execute loop for -1 seconds
+[2020-11-13 09:59:54,282] {scheduler_job.py:1376} INFO - Processing each file at most -1 times
+[2020-11-13 09:59:54,283] {scheduler_job.py:1379} INFO - Searching for files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:59:54,285] {scheduler_job.py:1381} INFO - There are 27 files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 09:59:54,285] {scheduler_job.py:1438} INFO - Resetting orphaned tasks for active dag runs
+[2020-11-13 09:59:54,291] {dag_processing.py:562} INFO - Launched DagFileProcessorManager with pid: 34617
+[2020-11-13 09:59:54,293] {settings.py:55} INFO - Configured default timezone <Timezone [UTC]>
+[2020-11-13 10:00:02,329] {scheduler_job.py:961} INFO - 3 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:46:00+00:00 [scheduled]>
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:48:00+00:00 [scheduled]>
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:56:00+00:00 [scheduled]>
+[2020-11-13 10:00:02,341] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 3 task instances ready to be queued
+[2020-11-13 10:00:02,342] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 10:00:02,342] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 1/16 running and queued tasks
+[2020-11-13 10:00:02,343] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 2/16 running and queued tasks
+[2020-11-13 10:00:02,348] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:46:00+00:00 [scheduled]>
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:48:00+00:00 [scheduled]>
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:56:00+00:00 [scheduled]>
+[2020-11-13 10:00:02,363] {scheduler_job.py:1158} INFO - Setting the following 3 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:46:00+00:00 [queued]>
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:48:00+00:00 [queued]>
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:56:00+00:00 [queued]>
+[2020-11-13 10:00:02,364] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 46, tzinfo=<Timezone [UTC]>), 2) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 10:00:02,364] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:46:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 10:00:02,365] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 48, tzinfo=<Timezone [UTC]>), 2) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 10:00:02,365] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:48:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 10:00:02,365] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 56, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 10:00:02,365] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:56:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 10:00:16,323] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:58:00+00:00 [scheduled]>
+[2020-11-13 10:00:16,329] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 10:00:16,329] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 10:00:16,333] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:58:00+00:00 [scheduled]>
+[2020-11-13 10:00:16,341] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 02:58:00+00:00 [queued]>
+[2020-11-13 10:00:16,341] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 2, 58, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 10:00:16,342] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T02:58:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 10:00:16,405] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:46:00+00:00 exited with status success for try_number 2
+[2020-11-13 10:00:16,409] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:48:00+00:00 exited with status success for try_number 2
+[2020-11-13 10:00:16,411] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:56:00+00:00 exited with status success for try_number 1
+[2020-11-13 10:00:28,348] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 02:58:00+00:00 exited with status success for try_number 1
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-11-13 10:01:19,818] {__init__.py:50} INFO - Using executor CeleryExecutor
+[2020-11-13 10:01:19,824] {scheduler_job.py:1367} INFO - Starting the scheduler
+[2020-11-13 10:01:19,825] {scheduler_job.py:1375} INFO - Running execute loop for -1 seconds
+[2020-11-13 10:01:19,825] {scheduler_job.py:1376} INFO - Processing each file at most -1 times
+[2020-11-13 10:01:19,825] {scheduler_job.py:1379} INFO - Searching for files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 10:01:19,828] {scheduler_job.py:1381} INFO - There are 27 files in /home/nvt/PycharmProjects/test_airflow/dags
+[2020-11-13 10:01:19,828] {scheduler_job.py:1438} INFO - Resetting orphaned tasks for active dag runs
+[2020-11-13 10:01:19,834] {dag_processing.py:562} INFO - Launched DagFileProcessorManager with pid: 35324
+[2020-11-13 10:01:19,837] {settings.py:55} INFO - Configured default timezone <Timezone [UTC]>
+[2020-11-13 10:02:07,892] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:00:00+00:00 [scheduled]>
+[2020-11-13 10:02:07,901] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 10:02:07,901] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 10:02:07,908] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:00:00+00:00 [scheduled]>
+[2020-11-13 10:02:07,921] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:00:00+00:00 [queued]>
+[2020-11-13 10:02:07,922] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 3, 0, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 10:02:07,922] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T03:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 10:02:21,912] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 03:00:00+00:00 exited with status success for try_number 1
+[2020-11-13 10:04:07,997] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:02:00+00:00 [scheduled]>
+[2020-11-13 10:04:07,999] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 10:04:07,999] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 10:04:08,001] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:02:00+00:00 [scheduled]>
+[2020-11-13 10:04:08,009] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:02:00+00:00 [queued]>
+[2020-11-13 10:04:08,009] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 3, 2, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 10:04:08,009] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T03:02:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
+[2020-11-13 10:04:20,029] {scheduler_job.py:1331} INFO - Executor reports execution of aggregate_action_user.get_user_action execution_date=2020-11-13 03:02:00+00:00 exited with status success for try_number 1
+[2020-11-13 10:06:06,123] {scheduler_job.py:961} INFO - 1 tasks up for execution:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:04:00+00:00 [scheduled]>
+[2020-11-13 10:06:06,133] {scheduler_job.py:994} INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+[2020-11-13 10:06:06,133] {scheduler_job.py:1023} INFO - DAG aggregate_action_user has 0/16 running and queued tasks
+[2020-11-13 10:06:06,140] {scheduler_job.py:1084} INFO - Setting the following tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:04:00+00:00 [scheduled]>
+[2020-11-13 10:06:06,149] {scheduler_job.py:1158} INFO - Setting the following 1 tasks to queued state:
+	<TaskInstance: aggregate_action_user.get_user_action 2020-11-13 03:04:00+00:00 [queued]>
+[2020-11-13 10:06:06,150] {scheduler_job.py:1193} INFO - Sending ('aggregate_action_user', 'get_user_action', datetime.datetime(2020, 11, 13, 3, 4, tzinfo=<Timezone [UTC]>), 1) to executor with priority 1 and queue test_airflow_queue
+[2020-11-13 10:06:06,150] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'aggregate_action_user', 'get_user_action', '2020-11-13T03:04:00+00:00', '--local', '--pool', 'default_pool', '-sd', '/home/nvt/PycharmProjects/test_airflow/dags/aggregate_action_user.py']
